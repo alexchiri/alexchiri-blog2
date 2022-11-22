@@ -15,8 +15,13 @@ tags:
 - journalling
 - meditation
 layout: layouts/post.njk
+imgUrl: ./src/assets/images/meditation.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-![](/img/meditation.jpg)
 
 ## Meditation
 

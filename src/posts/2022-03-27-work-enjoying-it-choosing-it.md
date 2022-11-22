@@ -6,9 +6,12 @@ tags:
   - work
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/Lost-Connections-03-2022.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/Lost-Connections-03-2022.png)
 
 I am not a supporter of the "finding your passion" narrative, but I do think you need to enjoy some aspects of what you do as work. And it shouldn't be like junk food, a distraction from other parts of your life, because that is also harmful.
 

@@ -11,6 +11,13 @@ categories:
 - Quick thoughts
 tags:
 - newsletter
+imgUrl: ./src/assets/images/ISS_3445_01414.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
+layout: layouts/post.njk
 ---
 
 I have the impression that the general feeling towards the notion of newsletters is somewhere close to idea of spam. Lots of ads, poor content and usually showing up in your inbox without requesting it or without realising you have subscribed to it (check the tiny little checkboxes at the bottom of the forms!)

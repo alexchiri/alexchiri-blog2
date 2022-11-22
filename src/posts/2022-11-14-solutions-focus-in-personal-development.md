@@ -7,9 +7,12 @@ tags:
   - leadership
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/1668343092095.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/1668343092095.png)
 
 ## Performance what?
 

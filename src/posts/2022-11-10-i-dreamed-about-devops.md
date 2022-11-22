@@ -7,9 +7,12 @@ tags:
   - platformengineering
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/EBA3CE2B-AB8A-4F8A-B750-E1D747FCAF7E.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/EBA3CE2B-AB8A-4F8A-B750-E1D747FCAF7E.png)
 
 **DISCLAIMER**: This is not another "DevOps is dead" [post](https://thenewstack.io/devops-is-dead-embrace-platform-engineering/)
 

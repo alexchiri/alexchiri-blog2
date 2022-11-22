@@ -6,11 +6,6 @@
         <a class="menu__link" href="{{ item.url | url }}" {% if item.url == params.page.url %}aria-label="Current page, {{ item.title }}"{% endif %}>{{ item.title }}</a>
       </li>
     {%- endfor %}
-    {% if params.hasButton %}
-      <li class="menu__item">
-        <a class="menu__link btn font-xs" href="{{ params.buttonHref | url }}" role = "button">{{ params.buttonText }}</a>
-      </li>
-    {% endif %}
     <li class="menu__item toggle__theme--wrap ml-1h mr-1">
       <button id="dark-light-mode" class="btn-reset toggle__theme--btn" title="Theme toggle">
         {{ component('svg-icon', {

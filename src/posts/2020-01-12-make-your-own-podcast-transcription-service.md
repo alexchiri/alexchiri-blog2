@@ -13,8 +13,14 @@ categories:
 tags:
 - podcasts
 layout: layouts/post.njk
+imgUrl: ./src/assets/images/scribe.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-![](/img/scribe.jpg)
+
 There are a lot of very interesting podcasts out there that I like to listen to, as much as time allows me to do so. But I noticed that I don't recall much out of them and I feel the need to go through them again. It would be great if all podcasts came with a transcript, so I can quickly revisit the parts that interest me. Unfortunately, making transcripts to your podcasts can be quite expensive, which is why most authors don't do so or put them behind a paywall.
 
 With this in mind, I tried to find my own solutions for this problem. With the spread of services like [Amazon Transcribe](https://aws.amazon.com/transcribe/) and [Google Cloud Speech-to-Text](https://cloud.google.com/speech-to-text/), I figured this would not be difficult to make. I was not sure how much would it cost to use these services and how difficult it would be to use them, but I was willing to give it a try. 

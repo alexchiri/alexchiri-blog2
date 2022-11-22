@@ -7,9 +7,12 @@ tags:
   - platforms
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/Depositphotos_457054980_XL.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/Depositphotos_457054980_XL.jpg)
 
 As companies grow, engineering teams start gathering more and more common layers in the company's product parts they own. So instead of each of them "re-inventing the wheel", internal platforms are created to encompass all the common layers or even to add new layers that serve specific purposes. It's quite common to have a "monitoring" platform, a "deployment" platform, a "development environment" platform, a "log aggregation" platform, a "compliance" platform and so on and so forth.
 

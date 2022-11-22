@@ -6,9 +6,12 @@ tags:
   - planning
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/planning-theory.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/planning-theory.png)
 
 In the [previous post](https://alexchiri.blog/posts/2020-07-12-healthy-habits/), I described how I started re-introducing some of the healthy habits that kept me going before the COVID-19 madness. That already improved my mental and physical state. But I felt that I am still wasting a lot of time in meaningless things, like social media or worrying and being annoyed that I am not accomplishing as much as I wanted in different areas of my life.
 

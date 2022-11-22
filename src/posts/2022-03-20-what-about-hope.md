@@ -7,8 +7,12 @@ tags:
   - books
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/Depositphotos_5587343_XL_crop.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-![](/img/Depositphotos_5587343_XL_crop.jpg)
 
 In general, I cannot describe myself as the most hopeful optimistic shiny happy person, so when I found out about a book specifically about hope, from the world leading scientist researching hope, I thought it would be interesting to read it. The book is called ["Making Hope Happen", by Shane J. Lopez](https://www.amazon.com/Making-Hope-Happen-Create-Yourself/dp/1451666233/) and this is what I found out from it:
 

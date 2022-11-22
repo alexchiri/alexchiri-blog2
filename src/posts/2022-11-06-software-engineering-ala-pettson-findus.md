@@ -7,9 +7,12 @@ tags:
   - software-engineering
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/Depositphotos_22466963_L.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/Depositphotos_22466963_L.jpg)
 
 My daughter is a big fan of [Pettson & Findus](https://en.wikipedia.org/wiki/Pettson_and_Findus). I have been reading to her some of their unusual adventures before sleep many times and some of them I have read them more than 10 times! They have a specific charm and it's almost impossible to not burst into laughter when reading them, so much fun. Not the best thing to read to a child before sleep, but it does its job!
 

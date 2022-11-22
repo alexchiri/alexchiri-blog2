@@ -7,8 +7,12 @@ tags:
   - work
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/Depositphotos_10732016_S.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-![](/img/Depositphotos_10732016_S.jpg)
 
 While my mind was going to random places, it brought into focus that this activity I was spending my days (and sometimes nights) on has not been around for that much time, maybe a few tens of years?
 

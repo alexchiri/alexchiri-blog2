@@ -7,9 +7,12 @@ tags:
   - platformengineering
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/4BB44E51-A63A-43CB-8FA3-BA5EFDB4919C.png
+imgAlt: Platform engineering. The new devops text and rocket
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/4BB44E51-A63A-43CB-8FA3-BA5EFDB4919C.png)
 
 I confess: [I don’t think](https://alexchiri.blog/posts/2022-11-10-i-dreamed-about-devops/) that titles like “DevOps Engineer” make any sense. It’s like saying “wet water”. Do we want to have any other kind?
 

@@ -8,9 +8,12 @@ tags:
   - platform
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/765BE5DA-5F11-4D40-975F-A51264072831.jpeg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/765BE5DA-5F11-4D40-975F-A51264072831.jpeg)
 
 In large product companies that have platform teams it is quite easy for the people in the platform teams to not know much about the products they are supporting. Sure, if the products are a popular car or a popular music streaming service, then chances are that everyone knows the products. But there is quite a lot of specialised software that most people don't normally interact with. Think of payroll solutions or CRM or enterprise content management systems. 
 

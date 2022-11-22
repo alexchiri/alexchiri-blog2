@@ -6,9 +6,12 @@ tags:
   - writing
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/20220327_143256.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/20220327_143256.jpg)
 
 After so many years of almost not writing by hand at all, I have rediscovered it as a simple, cheap, distraction-free way of thinking.
 

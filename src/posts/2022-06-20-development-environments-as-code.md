@@ -8,9 +8,12 @@ tags:
   - vscode
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/Depositphotos_141380706_L.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/Depositphotos_141380706_L.jpg)
 
 For some years now, I have stopped installing much development tooling directly on my computer. Everything runs in containers or VMs running on my computer. This is not a new concept, but several tools which are now ubiquitous enabled even better workflows for this. Even though these tools are very common nowadays, I haven’t seen many people using them this way. I think that’s a shame, because this brings considerable productivity, collaboration and effectiveness benefits. Let me tell you why and how.
 

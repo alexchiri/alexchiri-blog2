@@ -7,9 +7,12 @@ tags:
   - dadops
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/Depositphotos_235958520_s-2019.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/Depositphotos_235958520_s-2019.jpg)
 
 Maybe one of the most important things to figure out for kids over 7-8 months old, regardless of who takes care of the child, is a #routine that works and that you can keep consistently every day, including weekends.
 

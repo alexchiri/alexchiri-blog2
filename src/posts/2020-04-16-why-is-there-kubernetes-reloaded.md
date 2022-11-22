@@ -12,9 +12,13 @@ categories:
 tags:
 - kubernetes
 layout: layouts/post.njk
+imgUrl: ./src/assets/images/what-why-kubernetes.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/what-why-kubernetes.png)
 
 Not long ago, I posted a small article called "Why is (there) Kubernetes?". Its content inspired me to create a short presentation trying to answer the questions "What and Why is there Kubernetes?". See below the recording and its summary after.
 

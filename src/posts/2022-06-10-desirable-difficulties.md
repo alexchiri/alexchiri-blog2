@@ -7,9 +7,12 @@ tags:
   - desirable difficulties
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/Depositphotos_20184109_L.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/Depositphotos_20184109_L.jpg)
 
 We are in a period of immense abundance of information, and yet, I think we are not taught how to learn in a proper way. The lecture-and-memorization-until-test is a poor-mans strategy at best. I also found out that most people I talked to don't really have a strategy for learning.
 

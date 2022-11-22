@@ -5,9 +5,12 @@ tags:
   - habits
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/running.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/running.png)
 
 The transition to working from home here in Sweden was sudden like everywhere else, little earlier than in other places and the measures towards COVID-19 notoriously mild. Still, my daily routine was turned upside down. I was quite euphoric towards the idea of working remote 100% for the time of the epidemic and annoyed by the general state of denial of people at large, denial that this will be the new order for a while. Even with all the stuff I read about working remote before the pandemic, I underestimated how much things would change and how long it would take me to adjust (still working on it).
 

@@ -15,8 +15,13 @@ tags:
 - readwise
 - pocket
 layout: layouts/post.njk
+imgUrl: ./src/assets/images/readwise_kindle_pocket-1.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-![](/img/readwise_kindle_pocket-1.png)
 
 In the last years, I've been reading a [fair amount](https://www.goodreads.com/user/show/11613722-alex) of books. Besides that, I've been wanting to read more interesting articles and blogs, which is why I started using [Pocket](http://getpocket.com/) for almost a year now. At the same time, I've kept trying all kind of routines that would make me remember more from what I read. In the next paragraphs, I'm going to describe what I am currently doing and although it is not perfect, it feels the best so far, considering I don't have much time to invest in revisiting these reads. I don't see this as a replacement for active learning, for which I reserve time, but more of a complementary practice for interesting things I want to remember.
 

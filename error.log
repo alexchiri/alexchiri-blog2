@@ -1,0 +1,1010 @@
+
+> yetty@1.0.0 prebuild
+> npm run lint:sass && NODE_ENV=production npm run sass:prod && npm run scripts && npm run modernizr
+
+
+> yetty@1.0.0 lint:sass
+> stylelint --fix 'src/assets/styles/scss/**/*.scss' 'src/assets/styles/scss/**/**/*.scss' 'src/assets/styles/scss/**/**/**/*.scss'
+
+
+> yetty@1.0.0 sass:prod
+> node-sass src/assets/styles/scss/ --output src/assets/styles/  --output-style compressed
+
+Rendering Complete, saving .css file...
+Wrote CSS to /home/runner/alexchiri-blog2/src/assets/styles/main.css
+Rendering Complete, saving .css file...
+Wrote CSS to /home/runner/alexchiri-blog2/src/assets/styles/prism-base16-monokai.dark.css
+Wrote 2 CSS files to /home/runner/alexchiri-blog2/src/assets/styles/
+
+> yetty@1.0.0 scripts
+> webpack --mode=production
+
+asset bundle.min.js 823 bytes [compared for emit] [minimized] (name: main)
+./src/assets/scripts/index.js 1.97 KiB [built] [code generated]
+webpack 5.61.0 compiled successfully in 283 ms
+
+> yetty@1.0.0 modernizr
+> npx modernizr -c .modernizrrc.json -d src/assets/scripts/vendors/modernizr.min.js -u
+
+Modernizr build saved to src/assets/scripts/vendors/modernizr.min.js
+
+> yetty@1.0.0 build
+> npm run clean && npm run eleventy:prod
+
+
+> yetty@1.0.0 clean
+> rimraf dist
+
+
+> yetty@1.0.0 eleventy:prod
+> cross-env ELEVENTY_ENV=production eleventy
+
+Writing ./dist/sitemap.xml from ./src/sitemap.xml.njk.
+Writing ./dist/feed/feed.xml from ./src/feed/feed.njk.
+Writing ./dist/feed/.htaccess from ./src/feed/htaccess.njk.
+Writing ./dist/feed/feed.json from ./src/feed/json.njk.
+Writing ./dist/posts/2012-09-01-the-shadow-of-the-wind-by-carlos-ruiz-zafon/index.html from ./src/posts/2012-09-01-the-shadow-of-the-wind-by-carlos-ruiz-zafon.md.
+Writing ./dist/posts/2012-10-10-habits/index.html from ./src/posts/2012-10-10-habits.md.
+Writing ./dist/posts/2012-09-27-the-angels-game-by-carlos-ruiz-zafon/index.html from ./src/posts/2012-09-27-the-angels-game-by-carlos-ruiz-zafon.md.
+Writing ./dist/posts/2012-09-16-difficult-conversations/index.html from ./src/posts/2012-09-16-difficult-conversations.md.
+Writing ./dist/posts/2012-12-29-markdown-blogging/index.html from ./src/posts/2012-12-29-markdown-blogging.md.
+Writing ./dist/posts/2012-12-30-farming-and-dependency-injection-in-java/index.html from ./src/posts/2012-12-30-farming-and-dependency-injection-in-java.md.
+Writing ./dist/posts/2013-01-05-more-or-less/index.html from ./src/posts/2013-01-05-more-or-less.md.
+Writing ./dist/posts/2012-11-17-val-team-geek/index.html from ./src/posts/2012-11-17-val-team-geek.md.
+Writing ./dist/posts/2013-01-16-contra/index.html from ./src/posts/2013-01-16-contra.md.
+Writing ./dist/posts/2013-01-14-bank-robbers-and-java-concurrency/index.html from ./src/posts/2013-01-14-bank-robbers-and-java-concurrency.md.
+Writing ./dist/posts/2013-01-28-type-erasure-and-some-java-bytecode/index.html from ./src/posts/2013-01-28-type-erasure-and-some-java-bytecode.md.
+Writing ./dist/posts/2013-03-24-great-books/index.html from ./src/posts/2013-03-24-great-books.md.
+Writing ./dist/posts/2013-02-08-life-is-a-dance/index.html from ./src/posts/2013-02-08-life-is-a-dance.md.
+Writing ./dist/posts/2013-07-22-so-good-they-cant-ignore-you-by-cal-newport/index.html from ./src/posts/2013-07-22-so-good-they-cant-ignore-you-by-cal-newport.md.
+Writing ./dist/posts/2013-07-22-you-gotta-love-the-sunday-evening-news/index.html from ./src/posts/2013-07-22-you-gotta-love-the-sunday-evening-news.md.
+Writing ./dist/posts/2012-12-29-gone-static/index.html from ./src/posts/2012-12-29-gone-static.md.
+Writing ./dist/posts/2013-09-04-who-knows-what-dinking-is/index.html from ./src/posts/2013-09-04-who-knows-what-dinking-is.md.
+Writing ./dist/posts/2013-03-16-how-much-are-we-lying-to-ourselves/index.html from ./src/posts/2013-03-16-how-much-are-we-lying-to-ourselves.md.
+Writing ./dist/posts/2013-08-08-theme-of-the-month-deliberate-practice/index.html from ./src/posts/2013-08-08-theme-of-the-month-deliberate-practice.md.
+Writing ./dist/posts/2013-09-01-giethoorn/index.html from ./src/posts/2013-09-01-giethoorn.md.
+Writing ./dist/posts/2013-09-11-mountain-cross/index.html from ./src/posts/2013-09-11-mountain-cross.md.
+Writing ./dist/posts/2013-08-25-a-life-protecting-barrier-for-the-rotterdam-area/index.html from ./src/posts/2013-08-25-a-life-protecting-barrier-for-the-rotterdam-area.md.
+Writing ./dist/posts/2013-09-15-playful-squirrels/index.html from ./src/posts/2013-09-15-playful-squirrels.md.
+Writing ./dist/posts/2013-09-16-do-you-say-no/index.html from ./src/posts/2013-09-16-do-you-say-no.md.
+Writing ./dist/posts/2013-09-24-dutch-countryside/index.html from ./src/posts/2013-09-24-dutch-countryside.md.
+Writing ./dist/posts/2013-09-08-time-traveling-with-the-java-calendar/index.html from ./src/posts/2013-09-08-time-traveling-with-the-java-calendar.md.
+Writing ./dist/posts/2013-08-27-problem-solving-and-the-random-factor/index.html from ./src/posts/2013-08-27-problem-solving-and-the-random-factor.md.
+Writing ./dist/posts/2013-10-20-mobile-publishing-with-octopress-and-raspberrypi/index.html from ./src/posts/2013-10-20-mobile-publishing-with-octopress-and-raspberrypi.md.
+Writing ./dist/posts/2013-10-01-tourists-in-amsterdam-part-i/index.html from ./src/posts/2013-10-01-tourists-in-amsterdam-part-i.md.
+Writing ./dist/posts/2013-11-09-developers-can-cook/index.html from ./src/posts/2013-11-09-developers-can-cook.md.
+Writing ./dist/posts/2013-11-10-holder-js-a-handy-image-placeholder-generator/index.html from ./src/posts/2013-11-10-holder-js-a-handy-image-placeholder-generator.md.
+Writing ./dist/posts/2013-11-18-look-ma-i-cooked-again/index.html from ./src/posts/2013-11-18-look-ma-i-cooked-again.md.
+Writing ./dist/posts/2014-01-02-standing-up/index.html from ./src/posts/2014-01-02-standing-up.md.
+Writing ./dist/posts/2014-01-01-firecrackers-and-what-the-hell/index.html from ./src/posts/2014-01-01-firecrackers-and-what-the-hell.md.
+Writing ./dist/posts/2014-07-14-selfishness/index.html from ./src/posts/2014-07-14-selfishness.md.
+Writing ./dist/posts/2014-07-25-joel-on-software-work-and-management/index.html from ./src/posts/2014-07-25-joel-on-software-work-and-management.md.
+Writing ./dist/posts/2014-10-19-what-makes-a-leader/index.html from ./src/posts/2014-10-19-what-makes-a-leader.md.
+Writing ./dist/posts/2014-02-23-asciidoc-writing/index.html from ./src/posts/2014-02-23-asciidoc-writing.md.
+Writing ./dist/posts/2014-11-04-logitech-anywhere-mx-switch-fixes-like-an-amateur/index.html from ./src/posts/2014-11-04-logitech-anywhere-mx-switch-fixes-like-an-amateur.md.
+Writing ./dist/posts/2014-10-15-the-story-bundle-or-how-i-started-reading-more-fiction/index.html from ./src/posts/2014-10-15-the-story-bundle-or-how-i-started-reading-more-fiction.md.
+Writing ./dist/posts/2014-08-26-more-on-the-rackspace-cloud-files-action-for-dropzone-3-and-extras/index.html from ./src/posts/2014-08-26-more-on-the-rackspace-cloud-files-action-for-dropzone-3-and-extras.md.
+Writing ./dist/posts/2014-11-24-lets-make-a-change/index.html from ./src/posts/2014-11-24-lets-make-a-change.md.
+Writing ./dist/posts/2014-03-07-joy-of-coding-2014/index.html from ./src/posts/2014-03-07-joy-of-coding-2014.md.
+Writing ./dist/posts/2015-01-03-proactive-or-reactive/index.html from ./src/posts/2015-01-03-proactive-or-reactive.md.
+Writing ./dist/posts/2014-08-12-rackspace-cloud-files-action-for-dropzone-3/index.html from ./src/posts/2014-08-12-rackspace-cloud-files-action-for-dropzone-3.md.
+Writing ./dist/posts/2015-01-17-im-joining-the-yourturnchallenge/index.html from ./src/posts/2015-01-17-im-joining-the-yourturnchallenge.md.
+Writing ./dist/posts/2015-01-14-success/index.html from ./src/posts/2015-01-14-success.md.
+Writing ./dist/posts/2015-01-19-the-7-habits-of-highly-effective-people/index.html from ./src/posts/2015-01-19-the-7-habits-of-highly-effective-people.md.
+Writing ./dist/posts/2014-08-06-the-live-deployment-stories-from-bitopia/index.html from ./src/posts/2014-08-06-the-live-deployment-stories-from-bitopia.md.
+Writing ./dist/posts/2015-01-24-who-am-i/index.html from ./src/posts/2015-01-24-who-am-i.md.
+Writing ./dist/posts/2015-01-22-frustration/index.html from ./src/posts/2015-01-22-frustration.md.
+Writing ./dist/posts/2015-01-20-why-should-things-be-simple-when-they-can-be-complicated/index.html from ./src/posts/2015-01-20-why-should-things-be-simple-when-they-can-be-complicated.md.
+Writing ./dist/posts/2015-01-21-self-preservation/index.html from ./src/posts/2015-01-21-self-preservation.md.
+Writing ./dist/posts/2015-01-23-i-have-an-idea/index.html from ./src/posts/2015-01-23-i-have-an-idea.md.
+Writing ./dist/posts/2015-02-24-rescued-by-pebble/index.html from ./src/posts/2015-02-24-rescued-by-pebble.md.
+Writing ./dist/posts/2015-01-25-so-whats-next/index.html from ./src/posts/2015-01-25-so-whats-next.md.
+Writing ./dist/posts/2014-11-07-yet-another-unboxing-of-a-myo-armband/index.html from ./src/posts/2014-11-07-yet-another-unboxing-of-a-myo-armband.md.
+Writing ./dist/posts/2015-02-19-so-theres-streaming/index.html from ./src/posts/2015-02-19-so-theres-streaming.md.
+Writing ./dist/posts/2015-05-10-reality-check/index.html from ./src/posts/2015-05-10-reality-check.md.
+Writing ./dist/posts/2015-03-22-future-of-my-social-media/index.html from ./src/posts/2015-03-22-future-of-my-social-media.md.
+Writing ./dist/posts/2015-08-02-stuck/index.html from ./src/posts/2015-08-02-stuck.md.
+Writing ./dist/posts/2015-08-03-hot-in-nl/index.html from ./src/posts/2015-08-03-hot-in-nl.md.
+Writing ./dist/posts/2015-08-05-simple-light-ish-and-tasty-evening-snack/index.html from ./src/posts/2015-08-05-simple-light-ish-and-tasty-evening-snack.md.
+Writing ./dist/posts/2015-08-27-thank-you-and-goodbye-holland-heeellooo-sweden/index.html from ./src/posts/2015-08-27-thank-you-and-goodbye-holland-heeellooo-sweden.md.
+Writing ./dist/posts/2016-01-24-the-client-and-the-customer/index.html from ./src/posts/2016-01-24-the-client-and-the-customer.md.
+Writing ./dist/posts/2015-08-28-vacation-and-work/index.html from ./src/posts/2015-08-28-vacation-and-work.md.
+Writing ./dist/posts/2016-02-01-look-ma-i-built-my-own-tiny-blog-in-reactjs/index.html from ./src/posts/2016-02-01-look-ma-i-built-my-own-tiny-blog-in-reactjs.md.
+Writing ./dist/posts/2015-03-14-links-and-attention/index.html from ./src/posts/2015-03-14-links-and-attention.md.
+Writing ./dist/posts/2016-02-04-next-week-im-going-to-jfokus-are-you-coming-also/index.html from ./src/posts/2016-02-04-next-week-im-going-to-jfokus-are-you-coming-also.md.
+Writing ./dist/posts/2016-02-08-jfokus-2016-day-1-microservices-and-mob-programming/index.html from ./src/posts/2016-02-08-jfokus-2016-day-1-microservices-and-mob-programming.md.
+Writing ./dist/posts/2015-10-18-when-youre-moving-houses/index.html from ./src/posts/2015-10-18-when-youre-moving-houses.md.
+Writing ./dist/posts/2016-02-10-jfokus-2016-day-2-talks-talks-and-some-snoring/index.html from ./src/posts/2016-02-10-jfokus-2016-day-2-talks-talks-and-some-snoring.md.
+Writing ./dist/posts/2016-02-18-jfokus-2016-day-3-git-parallelism-jcache-reactive-and-boot/index.html from ./src/posts/2016-02-18-jfokus-2016-day-3-git-parallelism-jcache-reactive-and-boot.md.
+Writing ./dist/posts/2016-02-20-dont-create-a-sense-of-urgency-foster-a-sense-of-purpose/index.html from ./src/posts/2016-02-20-dont-create-a-sense-of-urgency-foster-a-sense-of-purpose.md.
+Writing ./dist/posts/2016-02-20-selective-memory/index.html from ./src/posts/2016-02-20-selective-memory.md.
+Writing ./dist/posts/2016-04-11-devops-cafe-episode-62-mary-and-tom-poppendieck/index.html from ./src/posts/2016-04-11-devops-cafe-episode-62-mary-and-tom-poppendieck.md.
+Writing ./dist/posts/2016-02-28-why-dont-you-do-story-mapping-in-your-agile-projects/index.html from ./src/posts/2016-02-28-why-dont-you-do-story-mapping-in-your-agile-projects.md.
+Writing ./dist/posts/2016-04-11-procrastinating-by-getting-distracted/index.html from ./src/posts/2016-04-11-procrastinating-by-getting-distracted.md.
+Writing ./dist/posts/2016-04-17-the-project-management-triangle-must-die/index.html from ./src/posts/2016-04-17-the-project-management-triangle-must-die.md.
+Writing ./dist/posts/2016-04-18-i-added-rss/index.html from ./src/posts/2016-04-18-i-added-rss.md.
+Writing ./dist/posts/2016-06-19-here-it-comes/index.html from ./src/posts/2016-06-19-here-it-comes.md.
+Writing ./dist/posts/2016-03-07-stackoverflow-fun-with-reactjs/index.html from ./src/posts/2016-03-07-stackoverflow-fun-with-reactjs.md.
+Writing ./dist/posts/2016-06-11-agile-info/index.html from ./src/posts/2016-06-11-agile-info.md.
+Writing ./dist/posts/2016-07-29-scrum-guide-refresh-july-2016/index.html from ./src/posts/2016-07-29-scrum-guide-refresh-july-2016.md.
+Writing ./dist/posts/2016-08-07-coaching-agile-teams-a-companion-for-scrummasters-agile-coaches-and-project-managers-in-transition-addison-wesley-signature-series-cohn-by-lyssa-adkins-2010/index.html from ./src/posts/2016-08-07-coaching-agile-teams-a-companion-for-scrummasters-agile-coaches-and-project-managers-in-transition-addison-wesley-signature-series-cohn-by-lyssa-adkins-2010.md.
+Writing ./dist/posts/2016-07-16-afh-042-the-grows-method-for-adopting-agile-software-develpoment-podcast/index.html from ./src/posts/2016-07-16-afh-042-the-grows-method-for-adopting-agile-software-develpoment-podcast.md.
+Writing ./dist/posts/2016-08-28-my-personal-map/index.html from ./src/posts/2016-08-28-my-personal-map.md.
+Writing ./dist/posts/2016-11-05-my-reading-routine/index.html from ./src/posts/2016-11-05-my-reading-routine.md.
+Writing ./dist/posts/2016-09-29-scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland-2014/index.html from ./src/posts/2016-09-29-scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland-2014.md.
+Writing ./dist/posts/2016-11-06-drunkenpmradio-having-empathy-for-your-project-w-patrice-colancecco-embry-podcast/index.html from ./src/posts/2016-11-06-drunkenpmradio-having-empathy-for-your-project-w-patrice-colancecco-embry-podcast.md.
+Writing ./dist/posts/2016-09-13-afh-043-the-agile-mindset-with-gil-broza/index.html from ./src/posts/2016-09-13-afh-043-the-agile-mindset-with-gil-broza.md.
+Writing ./dist/posts/2016-11-06-octalysis-self-deception-cynefin-and-slickyboards-interesting-nov16/index.html from ./src/posts/2016-11-06-octalysis-self-deception-cynefin-and-slickyboards-interesting-nov16.md.
+Writing ./dist/posts/2017-02-06-the-coaching-habit-say-less-ask-more-change-the-way-you-lead-forever/index.html from ./src/posts/2017-02-06-the-coaching-habit-say-less-ask-more-change-the-way-you-lead-forever.md.
+Writing ./dist/posts/2017-03-12-product-vision-and-technical-vision-and-something-extra/index.html from ./src/posts/2017-03-12-product-vision-and-technical-vision-and-something-extra.md.
+Writing ./dist/posts/2016-12-19-leadership-and-self-deception-getting-out-of-the-box-by-the-arbinger-institute/index.html from ./src/posts/2016-12-19-leadership-and-self-deception-getting-out-of-the-box-by-the-arbinger-institute.md.
+Writing ./dist/posts/2017-02-20-do-you-micro-manage-much/index.html from ./src/posts/2017-02-20-do-you-micro-manage-much.md.
+Writing ./dist/posts/2017-03-19-autonomy-at-work/index.html from ./src/posts/2017-03-19-autonomy-at-work.md.
+Writing ./dist/posts/2017-03-25-habits-and-every-day-work/index.html from ./src/posts/2017-03-25-habits-and-every-day-work.md.
+Writing ./dist/posts/2017-05-07-agile-is-also-about-people/index.html from ./src/posts/2017-05-07-agile-is-also-about-people.md.
+Writing ./dist/posts/2016-10-23-actionable-gamification-beyond-points-badges-and-leaderboards/index.html from ./src/posts/2016-10-23-actionable-gamification-beyond-points-badges-and-leaderboards.md.
+Writing ./dist/posts/2017-06-22-teams-are-made-of-people-summary/index.html from ./src/posts/2017-06-22-teams-are-made-of-people-summary.md.
+Writing ./dist/posts/2017-04-19-habits-for-reducing-interruptions/index.html from ./src/posts/2017-04-19-habits-for-reducing-interruptions.md.
+Writing ./dist/posts/2017-08-06-firefighting-in-software-development/index.html from ./src/posts/2017-08-06-firefighting-in-software-development.md.
+Writing ./dist/posts/2017-05-14-the-science-of-enlightenment-how-meditation-works-by-shinzen-young-2016/index.html from ./src/posts/2017-05-14-the-science-of-enlightenment-how-meditation-works-by-shinzen-young-2016.md.
+Writing ./dist/posts/2017-03-27-mentorship-play-for-the-long-game/index.html from ./src/posts/2017-03-27-mentorship-play-for-the-long-game.md.
+Writing ./dist/posts/2017-09-03-radical-candor-be-a-kick-ass-boss-without-losing-your-humanity-by-kim-scott-2017/index.html from ./src/posts/2017-09-03-radical-candor-be-a-kick-ass-boss-without-losing-your-humanity-by-kim-scott-2017.md.
+Writing ./dist/posts/2017-08-06-software-down/index.html from ./src/posts/2017-08-06-software-down.md.
+Writing ./dist/posts/2017-10-09-lean-agile-scotland-day-1-4-oct-2017/index.html from ./src/posts/2017-10-09-lean-agile-scotland-day-1-4-oct-2017.md.
+Writing ./dist/posts/2017-10-15-what-newsletters-i-happily-open-my-mailbox-to/index.html from ./src/posts/2017-10-15-what-newsletters-i-happily-open-my-mailbox-to.md.
+Writing ./dist/posts/2017-05-22-teams-are-made-of-people/index.html from ./src/posts/2017-05-22-teams-are-made-of-people.md.
+Writing ./dist/posts/2017-10-15-lean-agile-scotland-day-3-6-oct-2017/index.html from ./src/posts/2017-10-15-lean-agile-scotland-day-3-6-oct-2017.md.
+Writing ./dist/posts/2017-10-17-how-to-go-from-zero-to-sixty-in-nineteen-years-meetup/index.html from ./src/posts/2017-10-17-how-to-go-from-zero-to-sixty-in-nineteen-years-meetup.md.
+Writing ./dist/posts/2018-04-23-three-great-books-to-start-the-year/index.html from ./src/posts/2018-04-23-three-great-books-to-start-the-year.md.
+Writing ./dist/posts/2017-09-22-software-development-metrics/index.html from ./src/posts/2017-09-22-software-development-metrics.md.
+Writing ./dist/posts/2017-10-12-lean-agile-scotland-day-2-5-oct-2017/index.html from ./src/posts/2017-10-12-lean-agile-scotland-day-2-5-oct-2017.md.
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Copied 83 files / Wrote 119 files in 14.96 seconds (125.7ms each, v0.12.1)
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+
+200 files will be precached, totaling 32.27 MB.
+    Error: Failed to launch the browser process!
+    /home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+    
+    
+    TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+    
+        at onClose (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:750:14)
+        at Interface.<anonymous> (/home/runner/alexchiri-blog2/node_modules/puppeteer/lib/Launcher.js:739:50)
+        at Interface.emit (node:events:539:35)
+        at Interface.close (node:readline:586:8)
+        at Socket.onend (node:readline:277:10)
+        at Socket.emit (node:events:539:35)
+        at endReadableNT (node:internal/streams/readable:1345:12)
+        at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Reason: Error: Failed to launch the browser process!
+/home/runner/alexchiri-blog2/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome: error while loading shared libraries: libX11.so.6: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md
+

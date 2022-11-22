@@ -7,9 +7,13 @@ tags:
   - platforms
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/DC756D3B-9E18-4228-8415-D1F1977BA58A.jpeg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
 
-![](/img/DC756D3B-9E18-4228-8415-D1F1977BA58A.jpeg)
 There is one known trap that most internal software platforms are bound to fall into. 
 
 ## The trap 🪤

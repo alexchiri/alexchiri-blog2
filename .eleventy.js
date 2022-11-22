@@ -37,12 +37,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
   // CriticalCSS
-  if (env === 'production') {
-    eleventyConfig.addPlugin(criticalCss, {
-      height: 900,
-      width: 1300,
-    });
-  }
+  // if (env === 'production') {
+  //   eleventyConfig.addPlugin(criticalCss, {
+  //     height: 900,
+  //     width: 1300,
+  //   });
+  // }
   // PWA
   eleventyConfig.addPlugin(pluginPWA);
   eleventyConfig.addPlugin(readingTime);

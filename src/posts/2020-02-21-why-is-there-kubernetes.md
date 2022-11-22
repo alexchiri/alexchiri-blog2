@@ -12,9 +12,13 @@ categories:
 tags:
 - kubernetes
 layout: layouts/post.njk
+imgUrl: ./src/assets/images/why-kubernetes.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/why-kubernetes.png)
 
 When people hear that I work with [Kubernetes](https://kubernetes.io/), a very common question is "What is Kubernetes?". I found more useful to answer "Why is (there) Kubernetes?", to paraphrase the original question. "Why" is easier to explain than "what" because you don't have to go too deep in the technical details and there's an added bonus of explaining the purpose of Kubernetes.
 

@@ -15,6 +15,7 @@ tags:
 - presentations
 - solutions
 - systemsthinking
+layout: layouts/post.njk
 ---
 
 Every year, I manage to read one or two books that get my mind going and give me ideas that I could either apply right away or that set me on a larger path of discovery. One or two out of tens, or to be more specific, last year, out of thirty. I started to look into ways I could organise notes and ideas that I find in books in a better way. When I read about the [commonplace](https://ryanholiday.net/how-and-why-to-keep-a-commonplace-book/) [book](https://ryanholiday.net/the-notecard-system-the-key-for-remembering-organizing-and-using-everything-you-read/) method on Ryan Holiday’s [blog](https://ryanholiday.net/), I was a bit reluctant, but I liked the idea of taking notes by hand. It feels more real and I have the impression that my comprehension is better this way. From a great book, it is not unusual to gather about 30 notes. Well, this year so far I managed to gather 113 notes from only 3 books. Feels already like it’s gonna be a good year for reading. Let me tell you a bit about these books.

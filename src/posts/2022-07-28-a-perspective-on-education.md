@@ -6,10 +6,12 @@ tags:
   - learning
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/Depositphotos_109827304_L.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/Depositphotos_109827304_L.jpg)
-
 
 This is merely a collection of quotes from a very interesting book on learning and education: [Leveraged Learning by Danny Iny](https://www.amazon.com/Leveraged-Learning-Disruption-Education-Something-ebook/dp/B07HDC9M7S/). Still, I found it useful to post here a selection of these to build a superficial picture of the author's perspective on the current state of the various types of formal education and its future. I recommend reading the whole book for a more in-depth view on the subject, but also on how to build and deliver a better learning experience.
 

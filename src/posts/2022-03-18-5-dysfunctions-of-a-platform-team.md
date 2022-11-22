@@ -7,9 +7,12 @@ tags:
   - platforms
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/office-pretend.JPG
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/office-pretend.JPG)
 
 I’ve been working in platform teams for the last few years and I noticed some patterns or maybe better called dysfunctions. Although I could easily come up with more than 5, I couldn’t resist to paraphrase Patrick Lencioni’s book title, [The 5 Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Lencioni-ebook/dp/B006960LQW/). Also, in my case, all teams I’ve worked in were building a platform based on Kubernetes, but I think all these patterns are applicable to any kind of platform team.
 

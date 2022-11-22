@@ -14,10 +14,7 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
      * The eleventy-img plugin takes a while to work,
      * so let's skip all that image processing in development.
      */
-    formats:
-    process.env.ELEVENTY_ENV === "production"
-      ? productionFormats
-      : developmentFormats,
+    formats: productionFormats,
     /**
      * A path-prefix-esque directory for the <img src> attribute
      * e.g. /img/ for <img src="/img/MY_IMAGE.jpeg">

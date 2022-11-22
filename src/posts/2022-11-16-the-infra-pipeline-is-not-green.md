@@ -7,8 +7,12 @@ tags:
   - platformengineering
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/DEA95210-084C-4CFB-97E5-C5094CD57AB5.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-![](/img/DEA95210-084C-4CFB-97E5-C5094CD57AB5.png)
 
 This is one of those things that most people agree with in theory, but it somehow escapes the implementation.
 

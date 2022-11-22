@@ -6,9 +6,13 @@ tags:
   - mentalhealth
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/1668170597296.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
 
-![](/img/1668170597296.png)
 
 At the beginning of this year, I got a new hybrid bike (combo between speed and city bike). Without making any customizations other than adjusting my seat, I started riding it around the city, either to do the shopping or go to work in the center of Stockholm, and back home. Several months later, I had a small accident on my way home through the busy city center. No-one was hurt, except (my pride and) my front brake plate, which was bent from the impact with the bike in front. 
 

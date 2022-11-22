@@ -16,8 +16,13 @@ tags:
 - diigo
 - thebrain
 layout: layouts/post.njk
+imgUrl: ./src/assets/images/highlights-knowledge.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-![](/img/highlights-knowledge.png)
 
 [Some months ago](https://alexchiri.com/2019/03/04/resurface-highlights-from-books-and-articles/) I was writing about a routine I setup to manage and refresh highlights from books and articles.
 In the meantime, I have adjusted it a little bit, removed some services and added some others. Let's start with the bits that didn't work that well.

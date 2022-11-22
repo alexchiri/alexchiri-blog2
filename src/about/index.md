@@ -1,26 +1,30 @@
 ---
 layout: layouts/home.njk
 title: About
-imgUrl: https://source.unsplash.com/2k3sPaLibbw/
-imgAlt: Abstract black and white photograph of a person in a mountain.
-imgSize: '(min-width: 30em) 50vw, 100vw'
-pictureClass: grid-column-full
-imgClass: img-full
+imgUrl: ./src/assets/images/non-profi-profile-pic.JPG
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-post
 imgBorderColor: '#3f51b5'
 pageClass: page-about
 eleventyNavigation:
   key: About
   order: 3
 ---
+Hi! 
 
-{% imageMd imgUrl, imgAlt, imgSize, pictureClass, imgClass, imgBorderColor %}
+My name is Alex and this is my blog. I write occassionally about all kind of stuff coming from my job as a IT Consultant specialised in DevOps or from my personal life.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur pretium massa, sed consectetur ligula hendrerit vitae. Sed ac augue vehicula, consectetur erat ac, gravida magna. Phasellus tempus ante nunc, quis tincidunt risus fringilla in. Nulla sit amet libero ac augue elementum eleifend. Pellentesque a massa eu libero dictum tristique. Curabitur lacinia mauris eget nulla lacinia, sed ultricies ex feugiat. Maecenas semper nunc velit, eu dapibus tortor fermentum sed. Etiam elit enim, faucibus ac sapien vel, porta lobortis arcu. Maecenas placerat quam sed rhoncus pulvinar. Aliquam finibus ut odio sed semper. Praesent et nulla quis lacus egestas pretium sit amet eu sem. Proin metus dolor, placerat gravida enim consequat, volutpat mollis nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+You can browse my posts using the file explorer and search on the left or jump around posts based on some of the tags listed below.
 
-Mauris pellentesque, sapien ac lobortis finibus, felis felis feugiat sapien, ultrices posuere risus tellus in erat. Vivamus sem lacus, bibendum eu nibh vel, finibus faucibus dui. Maecenas sodales fermentum mi, sit amet commodo lorem blandit nec. Praesent auctor mauris at risus ullamcorper pharetra. Integer consectetur lectus quis sem egestas, in convallis eros imperdiet. Phasellus hendrerit tortor suscipit sem placerat hendrerit. Nullam sodales turpis ac tincidunt malesuada.
+Hope you enjoy some of these and don't hesitate to get in touch, either on a [Mastodon instance](https://hachyderm.io/@alexchiri) or by <a href="mailto:alex@alexchiri.com">email</a>
 
-Etiam ligula felis, viverra eleifend eros ac, molestie laoreet lorem. Aenean vitae iaculis massa. Suspendisse dictum metus finibus, egestas tellus efficitur, egestas mauris. Nam dapibus ligula id urna condimentum maximus. Vestibulum molestie nisi at nunc posuere eleifend. Cras convallis justo sed nunc efficitur ullamcorper. Donec eget nulla interdum, rhoncus turpis scelerisque, scelerisque ipsum. Maecenas suscipit euismod orci. Nulla egestas dolor vitae felis congue mattis. Sed nisl tellus, euismod ut imperdiet sit amet, malesuada id sapien. Aliquam maximus, tellus vitae sodales feugiat, ex metus porttitor dui, vitae condimentum nibh ante sit amet nisl. Nunc in urna sed dolor congue porta.
+See you around!
 
-Suspendisse vestibulum, quam nec interdum pulvinar, odio odio pulvinar felis, et commodo orci nisl facilisis mauris. Proin sagittis convallis egestas. Vestibulum rhoncus sit amet enim non feugiat. Vivamus purus nunc, aliquam sit amet semper eget, maximus bibendum massa. Mauris nisi mauris, ullamcorper quis velit nec, mollis sollicitudin ligula. Nunc cursus metus nulla, a lacinia massa vulputate quis. Pellentesque non mauris massa.
-
-Etiam fermentum, libero in imperdiet efficitur, nulla risus consequat nunc, non molestie enim turpis sed erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed at placerat diam. Aliquam scelerisque non est nec semper. Fusce pretium auctor nibh. Suspendisse maximus lectus ut massa rutrum tempus. Aliquam pellentesque imperdiet tincidunt. Vivamus id mauris velit. Vivamus luctus a purus maximus dapibus. Morbi ut venenatis justo, eu fermentum est. Integer interdum nisl a facilisis vehicula. Fusce at lacinia urna. Donec turpis est, vestibulum vitae nunc sed, cursus gravida erat. Donec sit amet lacus nec neque consequat eleifend et vitae leo.
+## Some categories and tags
+- Programming: [#software-development](https://alexchiri.blog/tags/software-development/) [#java](https://alexchiri.blog/tags/java/) 
+- Content: [#books](https://alexchiri.blog/tags/books/) [#podcasts](https://alexchiri.blog/tags/podcasts/) 
+- Personal Development: [#life](https://alexchiri.blog/tags/life/) [#enlightenment](https://alexchiri.blog/tags/enlightenment/) [#self-awareness](https://alexchiri.blog/tags/self-awareness/) 
+- Parenting: [#dadops](https://alexchiri.blog/tags/dadops/) [#routine](https://alexchiri.blog/tags/routine/) [#theboob](https://alexchiri.blog/tags/theboob/) [#birth](https://alexchiri.blog/tags/birth/) [#sleep](https://alexchiri.blog/tags/sleep/) 
+- Professional: [#leadership](https://alexchiri.blog/tags/leadership/) [#consulting](https://alexchiri.blog/tags/consulting/) 

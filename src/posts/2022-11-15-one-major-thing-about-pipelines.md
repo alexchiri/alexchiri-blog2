@@ -7,9 +7,12 @@ tags:
   - pipelines
 layout: layouts/post.njk
 imgUrl: ./src/assets/images/BCDA3591-9541-4CDF-9B93-C904A1FA7ACD.png
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
 ---
-
-![](/img/BCDA3591-9541-4CDF-9B93-C904A1FA7ACD.png)
 
 There is one major thing bothering me about CI/CD pipelines: it is hard to test them. I don’t know one good example of pipelines that are properly tested. This post is not about giving a (or the best) way on how to test pipelines, because frankly I don’t know one myself. I will try though to throw some ideas out there.
 

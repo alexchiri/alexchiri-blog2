@@ -13,6 +13,13 @@ categories:
 tags:
 - agile
 - mobprogramming
+imgUrl: ./src/assets/images/IMG_8426-1024x768.jpg
+imgAlt: ''
+imgSize: '100vw'
+pictureClass: grid-column-center
+imgClass: img-full
+imgBorderColor: '#a689ab'
+layout: layouts/post.njk
 ---
 
 After meeting Woody in a number of workshops and presentations about MOB programming, it was an unique and interesting opportunity to watch him talk about a different topic. He gave an inspiring talk about randomness, confirmation bias, serendipity, learning, experimenting, or as he called it _“stumbling purposely and purposeful stumbling”_. All of these coming from his own life experience, with a melange of personal stories, wise words and simply beautiful drawings.
