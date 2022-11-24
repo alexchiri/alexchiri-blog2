@@ -34,7 +34,7 @@ For some years now, I have stopped installing much development tooling directly 
 
 ### Step 1: Write some Dockerfiles
 
-![](/img/project-dev-palace.png)
+![](/assets/images/project-dev-palace.png)
 
 I started gathering a collection of Dockerfiles in a [public repo](https://github.com/alexchiri/project-dev-palace-all) which I use for when I work on various things.
 
@@ -48,7 +48,7 @@ After installing the extension, vscode has some pre-defined containers we can ch
 
 Let's say I would like to work some more in [a Rust project](https://github.com/alexchiri/dragon) I started some time ago.
 
-![](/img/rust-dev-container.png)
+![](/assets/images/rust-dev-container.png)
 
 I can open the project in vscode and in order to get started developing in a container, I need to create a special folder called `.devcontainer` and a `devcontainer.json`  file inside it. There are [plenty of options](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) that can be configured in this file, but for now I am only interested in configuring:
 
@@ -59,7 +59,7 @@ I can open the project in vscode and in order to get started developing in a con
 
 These can be checked into the project repo and every time vscode will see such a folder and file inside a project, it will offer me to try to open it in a container as configured. This time, I will do it myself: `F1` and search for `Rebuild and Reopen in Container` option. Once the container is started and vscode started inside it, I can see written `Dev Container` in the bottom-left corner. More than that, if I open a new Terminal, I can see that the session in it runs as user `alex` and it has my preffered prompt and color theme, just as configured in the `basic` [Dockerfile](https://github.com/alexchiri/project-dev-palace-all/blob/main/basic/Dockerfile).
 
-![](/img/rust-dev-container-2.png)
+![](/assets/images/rust-dev-container-2.png)
 
 And I am good to go.
 
@@ -75,13 +75,13 @@ First, we need to [enable WSL](https://docs.microsoft.com/en-us/windows/wsl/inst
 
 Next, we need to build the image from Dockerfile (already done in previous step), create a container from it and export its user-space as `.tar`:
 
-```bash
+```
 docker container export -o rust.tar $(docker create rust:1)
 ```
 
 Then this can be imported as a full blown Linux VM inside WSL2:
 
-```bash
+```
 wsl --import rust C:\Projects\VMs\rust .\rust.tar
 ```
 
