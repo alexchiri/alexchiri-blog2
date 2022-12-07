@@ -1,0 +1,5 @@
+{
+    "image": "eleventy:1",
+    "remoteUser": "alex",
+    "extensions": ["eamodio.gitlens"]
+}
