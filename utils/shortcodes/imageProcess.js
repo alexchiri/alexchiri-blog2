@@ -25,7 +25,7 @@ async function imageShortcode(src, alt, sizes = '100vw', pictureClass, cssClass,
      * output image directory. Maybe you want to write these to your output
      * directory directly (e.g. ./_site/img/)?
      */
-    outputDir: "./dist/assets/images/",
+    outputDir: "./docs/assets/images/",
     filenameFormat: function (id, src, width, format, options) {
     // id: hash of the original image
     // src: original image path

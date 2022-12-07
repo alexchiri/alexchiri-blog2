@@ -2,6 +2,851 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+      <loc>https://alexchiri.blog/about/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/posts/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/books/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/geek/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/team/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/alan-watts/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/life/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/challenge/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/conversations/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/habits/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/writing/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/dependency-injection/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/java/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/blogging/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/me/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/news/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/romania/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/self-awareness/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/vinyl/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/markdown/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/amsterdam/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/tourist/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/images/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/netherlands/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/travelling/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/practice/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/biking/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/dinking/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/concurrency/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/country-side/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/cooking/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/no/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/management/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/work/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/random/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/blog/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/octopress/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/joy-of-coding/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/asciidoc/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/fixing-stuff/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/dropzone/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/ruby/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/standing/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/reading/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/leadership/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/firecrackers/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/rackspace/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/simple/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/personal-development/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/javascript/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/placeholder/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/frustration/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/myo/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/unboxing/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/yourturnchallenge/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/type-erasure/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/generosity/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/bitopia/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/attention/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/distractions/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/hot/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/pebble/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/rescue-time/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/success/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/moving/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/identity/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/who-am-i/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/social-media/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/proactive/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/reactive/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/jfokus/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/client/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/customer/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/bandcamp/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/music/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/spotify/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/streaming/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/stackoverflow/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/tutorials/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/idea/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/agile/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/story-mapping/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/minimalistic-blog/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/purpose/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/urgency/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/deep-work/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/procrastination/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/devops/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/lean/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/podcast/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/food/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/vacation/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/budget/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/project-management/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/scope/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/time/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/story/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/coaching/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/scrum/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/mentorship/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/engineering/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/product/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/vision/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/perspective/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/trust/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/cynefin/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/gamification/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/motivation/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/slickynotes/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/technical%20debt/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/interruptions/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/people/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/lascot/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/autonomy/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/why/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/micro-manage/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/conference/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/enlightenment/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/meditation/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/mindfulness/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/journalling/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/podcasts/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/newsletter/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/problems/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/kubernetes/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/kindle/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/readwise/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/diigo/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/thebrain/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/edgar-schein/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/mobprogramming/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/birth/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/dadops/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/presentations/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/solutions/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/systemsthinking/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/routine/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/tools/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/theboob/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/sleep/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/hope/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/platforms/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/productivity/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/planning/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/roamresearch/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/pocket/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/learning/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/desirable%20difficulties/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/software-development/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/platformengineering/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/corporate/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/lecture/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/zoom/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/testing/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/pipelines/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/docker/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/wsl/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/vscode/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/mentalhealth/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/platform/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/softwaredevelopment/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/automation/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/education/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/community/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/organizationalchange/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/software/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/software-engineering/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
+      <loc>https://alexchiri.blog/tags/</loc>
+      <lastmod>1970-01-01</lastmod>
+    </url>
+    
+    <url>
       <loc>https://alexchiri.blog/posts/2012-09-01-the-shadow-of-the-wind-by-carlos-ruiz-zafon/</loc>
       <lastmod>2012-09-01</lastmod>
     </url>
@@ -779,850 +1624,5 @@
     <url>
       <loc>https://alexchiri.blog/posts/2022-12-06-stuck-in-a-model/</loc>
       <lastmod>2022-12-06</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/books/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/conversations/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/habits/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/writing/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/blogging/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/me/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/geek/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/team/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/markdown/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/vinyl/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/concurrency/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/java/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/dependency-injection/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/type-erasure/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/alan-watts/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/life/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/self-awareness/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/challenge/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/news/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/romania/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/practice/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/netherlands/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/travelling/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/random/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/images/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/biking/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/dinking/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/no/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/country-side/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/amsterdam/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/tourist/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/blog/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/octopress/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/cooking/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/firecrackers/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/standing/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/asciidoc/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/joy-of-coding/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/bitopia/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/generosity/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/leadership/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/javascript/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/placeholder/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/dropzone/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/ruby/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/reading/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/fixing-stuff/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/myo/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/unboxing/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/rackspace/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/proactive/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/reactive/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/yourturnchallenge/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/personal-development/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/success/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/simple/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/frustration/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/identity/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/who-am-i/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/idea/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/bandcamp/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/music/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/spotify/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/streaming/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/attention/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/distractions/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/pebble/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/rescue-time/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/vacation/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/work/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/moving/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/hot/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/food/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/social-media/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/minimalistic-blog/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/client/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/customer/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/jfokus/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/management/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/purpose/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/urgency/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/stackoverflow/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/tutorials/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/deep-work/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/procrastination/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/agile/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/story-mapping/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/budget/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/project-management/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/scope/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/time/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/podcast/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/scrum/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/story/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/cynefin/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/gamification/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/motivation/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/slickynotes/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/coaching/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/micro-manage/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/autonomy/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/perspective/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/trust/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/why/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/devops/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/lean/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/mentorship/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/engineering/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/product/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/vision/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/enlightenment/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/meditation/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/mindfulness/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/technical%20debt/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/interruptions/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/conference/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/lascot/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/people/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/newsletter/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/presentations/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/solutions/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/systemsthinking/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/kindle/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/readwise/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/pocket/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/mobprogramming/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/podcasts/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/kubernetes/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/problems/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/journalling/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/edgar-schein/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/productivity/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/planning/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/software-development/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/routine/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/dadops/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/birth/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/roamresearch/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/tools/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/theboob/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/sleep/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/learning/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/corporate/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/lecture/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/zoom/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/platforms/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/diigo/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/thebrain/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/hope/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/docker/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/wsl/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/vscode/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/desirable%20difficulties/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/platformengineering/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/platform/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/education/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/software/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/software-engineering/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/mentalhealth/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/testing/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/pipelines/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/community/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/organizationalchange/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/softwaredevelopment/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/automation/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/tags/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/posts/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/</loc>
-      <lastmod>2022-12-07</lastmod>
-    </url>
-    
-    <url>
-      <loc>https://alexchiri.blog/about/</loc>
-      <lastmod>2022-12-07</lastmod>
     </url>
 </urlset>

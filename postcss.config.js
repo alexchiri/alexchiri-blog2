@@ -4,7 +4,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')
 const plugins = [
                   autoprefixer,
                   purgecss({
-                    content: ['./dist/**/*.html'],
+                    content: ['./docs/**/*.html'],
                     safelist: ['active', 'dark-theme', 'light-theme', 'no-webp', 'webp']
                   })
                 ]

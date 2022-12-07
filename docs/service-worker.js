@@ -28,11 +28,11 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "ecbe2f99e959a9373a8ed5bc192e6aa0"
+    "revision": "08ff8992d9ad56efe99323690eb23f96"
   },
   {
     "url": "about/index.html",
-    "revision": "014148c9b5b9d686bb1a5772e4a1af94"
+    "revision": "25d86b98dd1f27aa5118599608118783"
   },
   {
     "url": "assets/images/1668170597296.png",
@@ -41,6 +41,14 @@ self.__precacheManifest = [
   {
     "url": "assets/images/1668343092095.png",
     "revision": "4536a0fad4a9e8037f4d7a820ffb4b91"
+  },
+  {
+    "url": "assets/images/20220327_143256-480.webp",
+    "revision": "950b62ea8123cae60adb9e0aea991384"
+  },
+  {
+    "url": "assets/images/20220327_143256-960.webp",
+    "revision": "944c26791421d3c1235189eb0f78fd19"
   },
   {
     "url": "assets/images/20220327_143256.jpg",
@@ -103,6 +111,14 @@ self.__precacheManifest = [
     "revision": "787e90cd681dece04356d4f7b0f32e28"
   },
   {
+    "url": "assets/images/Depositphotos_13773062_s-2019-480.webp",
+    "revision": "5ae6178ea07a92668d985cffa1503d8c"
+  },
+  {
+    "url": "assets/images/Depositphotos_13773062_s-2019-960.webp",
+    "revision": "cfd3fc4b3857d2889a8b00d62d7fb776"
+  },
+  {
     "url": "assets/images/Depositphotos_13773062_s-2019.jpg",
     "revision": "66708aa55c50a6f7feeee2763fae618c"
   },
@@ -129,6 +145,14 @@ self.__precacheManifest = [
   {
     "url": "assets/images/Depositphotos_5587343_XL_crop.jpg",
     "revision": "82d8f0685fe50b5397710e8ec4d84889"
+  },
+  {
+    "url": "assets/images/Depositphotos_9397131_s-2019-480.webp",
+    "revision": "7e809c5283590e2ae78e093e1d4ec412"
+  },
+  {
+    "url": "assets/images/Depositphotos_9397131_s-2019-960.webp",
+    "revision": "cf67e0ecefd684464c0f81636a00f1bf"
   },
   {
     "url": "assets/images/Depositphotos_9397131_s-2019.jpg",
@@ -179,8 +203,32 @@ self.__precacheManifest = [
     "revision": "d1bdb9565c19c97f41e6558157f272b8"
   },
   {
+    "url": "assets/images/helping-1440.webp",
+    "revision": "d2d37f121257a39097b98550845425ec"
+  },
+  {
+    "url": "assets/images/helping-480.webp",
+    "revision": "ae9c273fa85e68d2b61144c5dfd10760"
+  },
+  {
+    "url": "assets/images/helping-960.webp",
+    "revision": "5d26fd1506de71baa943487a82b131b7"
+  },
+  {
     "url": "assets/images/helping.jpg",
     "revision": "016da88cb88d202c9793a3a9f6dff5af"
+  },
+  {
+    "url": "assets/images/highlights-knowledge-1440.webp",
+    "revision": "15d69e52f5b6009b3f539c3eaac2c423"
+  },
+  {
+    "url": "assets/images/highlights-knowledge-480.webp",
+    "revision": "e03ca0c871ffc33bb81e6e259fd7d174"
+  },
+  {
+    "url": "assets/images/highlights-knowledge-960.webp",
+    "revision": "94d99954317c6d6ee1e87c6a772f63ee"
   },
   {
     "url": "assets/images/highlights-knowledge.png",
@@ -197,6 +245,14 @@ self.__precacheManifest = [
   {
     "url": "assets/images/Lost-Connections-03-2022.png",
     "revision": "5b156a6f54f8f368a8fae5e93838d75a"
+  },
+  {
+    "url": "assets/images/meditation-480.webp",
+    "revision": "3ab925db0a39e2c4245b45edf4f804ec"
+  },
+  {
+    "url": "assets/images/meditation-960.webp",
+    "revision": "446c84aba0c0606acfe493dec542c47b"
   },
   {
     "url": "assets/images/meditation.jpg",
@@ -219,6 +275,18 @@ self.__precacheManifest = [
     "revision": "88f3041d8fb8f72ba8f922973efed78b"
   },
   {
+    "url": "assets/images/non-profi-profile-pic-1440.webp",
+    "revision": "2ac0c58fd904f9a63ea173c044083eab"
+  },
+  {
+    "url": "assets/images/non-profi-profile-pic-480.webp",
+    "revision": "74cf820656679cef23e34deaacb1c1d6"
+  },
+  {
+    "url": "assets/images/non-profi-profile-pic-960.webp",
+    "revision": "b9b5dbe9cbf40f29cabda7e33557f9a1"
+  },
+  {
     "url": "assets/images/planning-practice.png",
     "revision": "f33a3bd7e6c79dfea1338e789a8b0a20"
   },
@@ -231,6 +299,14 @@ self.__precacheManifest = [
     "revision": "27d97d5cd571a118e3985efae5b94c50"
   },
   {
+    "url": "assets/images/q68-E6hdl90-480.webp",
+    "revision": "0e0293113bceebf22dd74928220ca448"
+  },
+  {
+    "url": "assets/images/q68-E6hdl90-960.webp",
+    "revision": "68e18bf4dcfb4dedfec9cc75d76c93dc"
+  },
+  {
     "url": "assets/images/readwise_kindle_pocket.png",
     "revision": "eeef5a180c5ce9c78282874313495c3a"
   },
@@ -241,6 +317,14 @@ self.__precacheManifest = [
   {
     "url": "assets/images/resulting_transcript.png",
     "revision": "ec50577aab29361b5c4a1da9aff5557f"
+  },
+  {
+    "url": "assets/images/running-480.webp",
+    "revision": "33a25afdc13ef20ca47d9a93101b0e9c"
+  },
+  {
+    "url": "assets/images/running-960.webp",
+    "revision": "97cb67e6dd0af4ce35b1cc87c379e21a"
   },
   {
     "url": "assets/images/running.png",
@@ -307,6 +391,18 @@ self.__precacheManifest = [
     "revision": "275c881ebc1e4e3d705a75efe132528a"
   },
   {
+    "url": "assets/images/scribe-1440.webp",
+    "revision": "3549efb1ead5ce3e27407da43cf446f9"
+  },
+  {
+    "url": "assets/images/scribe-480.webp",
+    "revision": "5f16eb38a87bf282630b8bc6690cd71a"
+  },
+  {
+    "url": "assets/images/scribe-960.webp",
+    "revision": "9714970c1e9a0552e95021fd942566fd"
+  },
+  {
     "url": "assets/images/scribe.jpg",
     "revision": "067bea38e26bb59d52377442ef4c040a"
   },
@@ -319,8 +415,24 @@ self.__precacheManifest = [
     "revision": "11f36c05049e16875c8ca81c8edcc3e9"
   },
   {
+    "url": "assets/images/what-why-kubernetes-480.webp",
+    "revision": "9837d541df10a7b5e70f0bb318a8461f"
+  },
+  {
+    "url": "assets/images/what-why-kubernetes-960.webp",
+    "revision": "e8bbe678f5db181d7ea4559bcf170203"
+  },
+  {
     "url": "assets/images/what-why-kubernetes.png",
     "revision": "22870736cd0b96bb469d17bd499a7877"
+  },
+  {
+    "url": "assets/images/why-kubernetes-480.webp",
+    "revision": "a0589e386d04b538e55028aee87031fe"
+  },
+  {
+    "url": "assets/images/why-kubernetes-960.webp",
+    "revision": "a844f747666b3c22e437d5ec229796ec"
   },
   {
     "url": "assets/images/why-kubernetes.png",
@@ -356,7 +468,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "80ca2dbc1c3228aeff7c506bea66fc39"
+    "revision": "f5e9eec4b2f3f912b95dd6fe7f69793a"
   },
   {
     "url": "manifest.json",
@@ -364,55 +476,55 @@ self.__precacheManifest = [
   },
   {
     "url": "posts/1/index.html",
-    "revision": "37aff3d9a9f117b143c08207418cd92a"
+    "revision": "e833e86b28f821b0c2ed83cfaedffe0f"
   },
   {
     "url": "posts/10/index.html",
-    "revision": "fab8c656d873b35c7631a72de95c6c80"
+    "revision": "792d04d497c65b01506e43bbf32faee6"
   },
   {
     "url": "posts/11/index.html",
-    "revision": "c6e91c49a037f0af9a6e00a87c155aa3"
+    "revision": "50807759e8fd93f482d962549ef7c40a"
   },
   {
     "url": "posts/12/index.html",
-    "revision": "0b8f25242ba532aa72820a748fc13f78"
+    "revision": "20302b2e44519952ca20dee6cefd96f2"
   },
   {
     "url": "posts/13/index.html",
-    "revision": "7fe164564f4eb5ed3988620fff98d8a2"
+    "revision": "295cff6ed8ff37d092a8c1a1bf77460e"
   },
   {
     "url": "posts/14/index.html",
-    "revision": "a66cf6358bb4a61747bb289ea55d22a2"
+    "revision": "6c846828ffa907e1e6899c6ea3baad18"
   },
   {
     "url": "posts/15/index.html",
-    "revision": "70e17585b6a87367bd3c2960f90a2276"
+    "revision": "6aed48c7eb33ed5a1d9b61518fbc38b7"
   },
   {
     "url": "posts/16/index.html",
-    "revision": "184c54789805addab9b063e995662140"
+    "revision": "d038fc1a7a0ca9602633cdb1d7ed7c2d"
   },
   {
     "url": "posts/17/index.html",
-    "revision": "1448d2e57c908f12320cc3765652c43b"
+    "revision": "847c585c4ac724bb5103cbe72e7c7a71"
   },
   {
     "url": "posts/18/index.html",
-    "revision": "810ed8456f4c97b461d749619d6d3ca1"
+    "revision": "db8300130a641f9efd4805afa32477e8"
   },
   {
     "url": "posts/19/index.html",
-    "revision": "194f9e447423ce0762b7f3976e03ef44"
+    "revision": "a85258036922a31811ad22aa5c32075d"
   },
   {
     "url": "posts/2/index.html",
-    "revision": "ff753b8ff442957598b62520011dea94"
+    "revision": "800196e5df82f8153121bbb8a8fd0896"
   },
   {
     "url": "posts/20/index.html",
-    "revision": "1cb40cebbbcc348694f7e2520d338334"
+    "revision": "a516c1d49186150087bf191f6e5ec96d"
   },
   {
     "url": "posts/2012-09-01-the-shadow-of-the-wind-by-carlos-ruiz-zafon/index.html",
@@ -864,843 +976,843 @@ self.__precacheManifest = [
   },
   {
     "url": "posts/2018-04-23-three-great-books-to-start-the-year/index.html",
-    "revision": "2bcf5684c2bb73cb0b86f8fc968315c0"
+    "revision": "8c4a3bf3d82cb01f04f3af1cc2087278"
   },
   {
     "url": "posts/2018-12-02-accept-gravity-and-let-go-of-your-anchors/index.html",
-    "revision": "d88afafa9a1279276e81a0b085e0da68"
+    "revision": "eebaa812bf5cace1921b7cb065760d8e"
   },
   {
     "url": "posts/2022-02-24-learning-strengths-opportunities/index.html",
-    "revision": "06208e911fb7b4e5087e1546897136ad"
+    "revision": "78e360b605c9a7e6f128c4b4ad65d090"
   },
   {
     "url": "posts/2022-02-24-live-corporate-preaching/index.html",
-    "revision": "ef270b187b5d836498d72478fdbd480d"
+    "revision": "d0b0a9a108a89191bae7d85196aac0e4"
   },
   {
     "url": "posts/21/index.html",
-    "revision": "0eb8ad0dcda8b5ef564a55627dc677ad"
+    "revision": "006b83e79554204a507312d6f11a2bcf"
   },
   {
     "url": "posts/22/index.html",
-    "revision": "d39ef23efaf26792bd20c721915c9652"
+    "revision": "0cc0336df6c60cbc0cf4d10855a2253a"
   },
   {
     "url": "posts/23/index.html",
-    "revision": "c64ec479a4dbaeb65d60278de542f5b8"
+    "revision": "73a353ea461c8b3a64dcc407f1418c1b"
   },
   {
     "url": "posts/24/index.html",
-    "revision": "1fa5607c0a0f127215c03031dcfa41c5"
+    "revision": "3050d12d55f7980f68d0cfce9569bc5d"
   },
   {
     "url": "posts/25/index.html",
-    "revision": "a03a9d964bfeb3a1a0b3fb387b7ef007"
+    "revision": "77a8a9b000a913bfb61f4d26dfe92dff"
   },
   {
     "url": "posts/26/index.html",
-    "revision": "e83757187e177c47c361485ac054c468"
+    "revision": "bdc6639a7a4553e80872cc8ce2b35b8f"
   },
   {
     "url": "posts/27/index.html",
-    "revision": "7d4302444575ed5d55c7f54e80f94d3e"
+    "revision": "085834aa65cd83351568192858c1bd5f"
   },
   {
     "url": "posts/28/index.html",
-    "revision": "b414f9de541613efa3b7ebff7cc5bfb5"
+    "revision": "5b240c486b5b04dea6ffa3d3a6be6e8e"
   },
   {
     "url": "posts/29/index.html",
-    "revision": "e56b74878feffc715365c00da52c25fd"
+    "revision": "6bb0f157a136688a7d999b35fdc83806"
   },
   {
     "url": "posts/3/index.html",
-    "revision": "ec75f97dba80ac66621c84ca4d7d72d2"
+    "revision": "0af1a50a826c02b486b422006f756eef"
   },
   {
     "url": "posts/30/index.html",
-    "revision": "2b79b05f110e3a91a78389a205b5baaf"
+    "revision": "339272f36cf9e3fb16c28fbdbbc76c77"
   },
   {
     "url": "posts/31/index.html",
-    "revision": "534fb1cbcbd73fb62bf00f2611dc6ae9"
+    "revision": "4cc088c898b84f9f755fe782d71aaf23"
   },
   {
     "url": "posts/32/index.html",
-    "revision": "fbe179514c3fe65bdebe57484e9cab09"
+    "revision": "51bfdd430a5fab23722e508880ec2f10"
   },
   {
     "url": "posts/33/index.html",
-    "revision": "68c97ba43a20c2717ac4542a68cf7f44"
+    "revision": "9e0e0d5558adcb3bbc210c233355060f"
   },
   {
     "url": "posts/34/index.html",
-    "revision": "843859de399c6e9ca7e40bf7af405abd"
+    "revision": "f0b43904c4763c3cc85050b542580735"
   },
   {
     "url": "posts/35/index.html",
-    "revision": "5f0daae5ce9ca0fbd17a7cd8488c992a"
+    "revision": "49dba2a616b170f3f5ca8d7273cb6e03"
   },
   {
     "url": "posts/36/index.html",
-    "revision": "8acf16a2bf1642e9251b4ba5f3e4e7ae"
+    "revision": "5234c1d104680e70570aa3bd7a4a8112"
   },
   {
     "url": "posts/37/index.html",
-    "revision": "bc9e5a30dcf6fc8232d42af5799f3374"
+    "revision": "47a2cbe5631d6508e59c5cb0db6ce16f"
   },
   {
     "url": "posts/38/index.html",
-    "revision": "39eff57fc83c2d8099e3023b0167fdf5"
+    "revision": "86e660e9def0ee9c8051a51d9d7ba7a0"
   },
   {
     "url": "posts/39/index.html",
-    "revision": "905c026e59ed4f1367f495d9270f7e5c"
+    "revision": "4de018ad59ee539349a439ae93563af7"
   },
   {
     "url": "posts/4/index.html",
-    "revision": "4856643d9b8578005b18238ba72a9aa8"
+    "revision": "b2a7cd199240502fc745844de6d8f7c7"
   },
   {
     "url": "posts/40/index.html",
-    "revision": "ab3c2950d786b173a553a816b647e38a"
+    "revision": "0bb93cfe40b1137d9ee5ca97639d4b66"
   },
   {
     "url": "posts/41/index.html",
-    "revision": "4979775f4f58d067b9feafd479478322"
+    "revision": "c9e624d604be76acd1b62f0036c487d1"
   },
   {
     "url": "posts/42/index.html",
-    "revision": "7b10b38314d1f21071625560cd299f91"
+    "revision": "7aee33026efbda094632e519265904df"
   },
   {
     "url": "posts/43/index.html",
-    "revision": "70b3116530ced807ca461636783ff4fb"
+    "revision": "7cb860cf79b34d170996a6f033223cb1"
   },
   {
     "url": "posts/44/index.html",
-    "revision": "a07927a668f59c800942d0dafbc23f19"
+    "revision": "b32d294e7818c4fb207908b6d4e5477b"
   },
   {
     "url": "posts/45/index.html",
-    "revision": "630e0307782d7a359bd818cf47b00ed0"
+    "revision": "a47741521d9f5fc22e60afa9d143c357"
   },
   {
     "url": "posts/46/index.html",
-    "revision": "a2071173b68899c4949dce9039a981c7"
+    "revision": "a0be87260835feb7f8fa6a962ec7d2e5"
   },
   {
     "url": "posts/47/index.html",
-    "revision": "66eef5860df686d362a59b1782766f7b"
+    "revision": "776515d452136f90c083e78fa96d42e5"
   },
   {
     "url": "posts/48/index.html",
-    "revision": "47c158838766762196e6ee1e9903d957"
+    "revision": "78e79bebd86c8c27448d8923dafe4e1d"
   },
   {
     "url": "posts/49/index.html",
-    "revision": "bf0803f627dd0ae8595aacf3356afe2b"
+    "revision": "fd6516ad941dd9484b953762bf71c206"
   },
   {
     "url": "posts/5/index.html",
-    "revision": "e063af24a92850b79e142965960e0c96"
+    "revision": "ab16ad3d779c516244e7c0c27fd3770c"
   },
   {
     "url": "posts/50/index.html",
-    "revision": "17aeb18bded0b5e6df9ae2a05df2a5ac"
+    "revision": "cf25ea2565adb2843a79963617e0ba54"
   },
   {
     "url": "posts/51/index.html",
-    "revision": "f3b41d3258747acb04aebceddf81fd1f"
+    "revision": "9585e69bea29cd169b710aa4128b19cc"
   },
   {
     "url": "posts/6/index.html",
-    "revision": "6762e7bf6898dde1c29a6c58d698f292"
+    "revision": "726138ac539d3df2fc3ae4e3889831e4"
   },
   {
     "url": "posts/7/index.html",
-    "revision": "9a8fef54e3fff18fe5c28a2877a2205d"
+    "revision": "c57ad5587756ccbea53b05e01138c979"
   },
   {
     "url": "posts/8/index.html",
-    "revision": "97e170da2fc44bba7504655b75d267ee"
+    "revision": "0db1bc31fd6466325b1574db539d6403"
   },
   {
     "url": "posts/9/index.html",
-    "revision": "68f431e44c3ffdcd1ea0ee74e116c76a"
+    "revision": "c3557550118c4354169146c9fd008fbd"
   },
   {
     "url": "posts/index.html",
-    "revision": "63feb0b723cdce77679ba432227b32a7"
+    "revision": "9466089da98b7d79e41d28fababb61f2"
   },
   {
     "url": "sitemap.html",
-    "revision": "de7008aaec586c5c3333683a6dc03e72"
+    "revision": "846bab196810f32df8d506116cbab935"
   },
   {
     "url": "tags/agile/index.html",
-    "revision": "fafb3ed3f1b6aaaa4e54cf1819bfb1da"
+    "revision": "9451922b766bdf925e1dcd7407ca247d"
   },
   {
     "url": "tags/alan-watts/index.html",
-    "revision": "793ee355fb036665e97ad0cf81e8a59f"
+    "revision": "c244a38c2ee9ca14490a71d6d0b57fb1"
   },
   {
     "url": "tags/amsterdam/index.html",
-    "revision": "07384635c36aa2be599b956b90374587"
+    "revision": "d0f04543988e821162485e5965dfb9e7"
   },
   {
     "url": "tags/asciidoc/index.html",
-    "revision": "0f5abb2f79d8af93aecb940c2e6881b1"
+    "revision": "57f8f0750516fd5561396ed3dd6edb5f"
   },
   {
     "url": "tags/attention/index.html",
-    "revision": "c0fb7b8a4ab7813eaa879e1c4a2c09b5"
+    "revision": "3233b344d4d1cc801548a12c7ea055ab"
   },
   {
     "url": "tags/automation/index.html",
-    "revision": "dfda7aab5d8b0b3a032b51f3c177b793"
+    "revision": "d3ba682a52fd164bef79ede3a30c0f4b"
   },
   {
     "url": "tags/autonomy/index.html",
-    "revision": "d403df9a7d5be77ed0ce37fee48641da"
+    "revision": "87b8f6d39db62e93f37eb2551b7054c9"
   },
   {
     "url": "tags/bandcamp/index.html",
-    "revision": "2260e282024531df0d26241b82a4fbd4"
+    "revision": "899c2295177f5e61d33b08050ce2a5e2"
   },
   {
     "url": "tags/biking/index.html",
-    "revision": "3fb8f636fdacefd590f1650e423ec920"
+    "revision": "8c8387d4f7204f910bd29fcd0cdfaf0c"
   },
   {
     "url": "tags/birth/index.html",
-    "revision": "caff270c20904254c62d549ccc205db2"
+    "revision": "7017674b4033796b6df38a960c8887cd"
   },
   {
     "url": "tags/bitopia/index.html",
-    "revision": "f52fe2407daef6f7c39f16776f8875f0"
+    "revision": "3c2bb0dc53f66033362f7f3c37302163"
   },
   {
     "url": "tags/blog/index.html",
-    "revision": "521b1e3ecfbb075324876fbf9523db08"
+    "revision": "f59fc3f6b78d4f984ee178d9158c8626"
   },
   {
     "url": "tags/blogging/index.html",
-    "revision": "118e4ed9ac62ef61842e01b935d1fee4"
+    "revision": "14db0bfe889d5fd5b181492cdf1181ef"
   },
   {
     "url": "tags/books/index.html",
-    "revision": "0e947594790b87f4178dfe0a7bdb9c53"
+    "revision": "a870dc74f49bb99258d2a5a9c40b3b6f"
   },
   {
     "url": "tags/budget/index.html",
-    "revision": "017681bd909c34926d23f4ee685f3202"
+    "revision": "6dbc21836442978e45445dd64cf6915d"
   },
   {
     "url": "tags/challenge/index.html",
-    "revision": "e52e794fffc2eb59fa51a57a1b73bf17"
+    "revision": "43fbe283350dc43764a5b8e3dd145139"
   },
   {
     "url": "tags/client/index.html",
-    "revision": "41e9514da016fb67f1f6f50c064cdd9c"
+    "revision": "43449c09bbce634e224f7266e920ec8e"
   },
   {
     "url": "tags/coaching/index.html",
-    "revision": "d1de0c73c52fff96d98d0cc771999fcf"
+    "revision": "a43239caa5bb83bb61f90b59bfc096f5"
   },
   {
     "url": "tags/community/index.html",
-    "revision": "df55f0964854823280bb8dfca15bcc23"
+    "revision": "a86c9338bb7b1739d2c41b5b43a7c5c8"
   },
   {
     "url": "tags/concurrency/index.html",
-    "revision": "92cf8232bf09e4e7a1354b443ded1da9"
+    "revision": "0e8002cf8b852985bb57003297f48836"
   },
   {
     "url": "tags/conference/index.html",
-    "revision": "ccddad0dad31cbf9ee6202d24e9072c4"
+    "revision": "1fd610f6101bfec03bddacd9f73fb863"
   },
   {
     "url": "tags/conversations/index.html",
-    "revision": "d747195b52ed96c2c85e4417bfd827da"
+    "revision": "0a17054d9a8c6ad0a869babbe0a4809f"
   },
   {
     "url": "tags/cooking/index.html",
-    "revision": "558d7529430afb3b719449b120cac36c"
+    "revision": "1b6b396e52b0b5bfa5a2d13fc094e448"
   },
   {
     "url": "tags/corporate/index.html",
-    "revision": "0d634e88b7013a642cf7e2ef9563c33a"
+    "revision": "ccb192dc153d88d7a96db50d633c3293"
   },
   {
     "url": "tags/country-side/index.html",
-    "revision": "c51acade1b346d530c8554491e4f5fed"
+    "revision": "a04093b8910fef366a383225b15c15a4"
   },
   {
     "url": "tags/customer/index.html",
-    "revision": "74e4d14af2a866b231544c3b42127ee7"
+    "revision": "e5e1eafd3aa4b56586656102edfebbcb"
   },
   {
     "url": "tags/cynefin/index.html",
-    "revision": "143e28bf51c8da3831662b728e3e6a6e"
+    "revision": "f5992b2c7bff3380c7545eb3fb3359d0"
   },
   {
     "url": "tags/dadops/index.html",
-    "revision": "a6ac473eb21e9c630d9be66121278e6f"
+    "revision": "6cc99d455ec415324425b3bb59c2e90f"
   },
   {
     "url": "tags/deep-work/index.html",
-    "revision": "3a5f883f3c712ecc85a8c30f0de0c694"
+    "revision": "45e91bb5853a765a5d5017d9dcf30929"
   },
   {
     "url": "tags/dependency-injection/index.html",
-    "revision": "c6a23bc66e45b0c40f434163e644085d"
+    "revision": "4ffd6eef7d29389245a96c62d459e273"
   },
   {
     "url": "tags/desirable difficulties/index.html",
-    "revision": "6b8e5ba52907d58a637f80bfa71003b4"
+    "revision": "e1dbfc7ddd9171a1a2249163bb7461e7"
   },
   {
     "url": "tags/devops/index.html",
-    "revision": "6c62461dee94781eef9207645ecd46eb"
+    "revision": "048c694e799feaf9f39994f2c1754f89"
   },
   {
     "url": "tags/diigo/index.html",
-    "revision": "450e6d6356bd54245e2729b7804e562e"
+    "revision": "a394b97c7438d7aee0b5cd05a3eef19f"
   },
   {
     "url": "tags/dinking/index.html",
-    "revision": "c43b05d3235391e68175b443df34777d"
+    "revision": "0f15d7b24b0545acf06b74b92c1708f2"
   },
   {
     "url": "tags/distractions/index.html",
-    "revision": "1882819b1cc8811c74611d77e3fc4aae"
+    "revision": "b5435178020d7ae355f172c4ef67d1bc"
   },
   {
     "url": "tags/docker/index.html",
-    "revision": "7d9c6ab534844bc5b5d4a9f2b3b6a634"
+    "revision": "36d78e87e2fc7d39337063869ec73ff1"
   },
   {
     "url": "tags/dropzone/index.html",
-    "revision": "a09c50ffbea81303dd544c5a92a08c31"
+    "revision": "ecb047e2834a281954e54804f3457903"
   },
   {
     "url": "tags/edgar-schein/index.html",
-    "revision": "89a2d48eab730a2b018e7fc5ca47466a"
+    "revision": "c84083a6051a483638e0048892fcd7d0"
   },
   {
     "url": "tags/education/index.html",
-    "revision": "96fee7b6a27fe62321c1fc86d64856aa"
+    "revision": "850c49c9529c840c0791d2ab4307f4fc"
   },
   {
     "url": "tags/engineering/index.html",
-    "revision": "658512d845515019af48963ed189a78e"
+    "revision": "6df0ed89c08640648fe9aa277ac6d1a2"
   },
   {
     "url": "tags/enlightenment/index.html",
-    "revision": "3885be47cc44bde60525c9c158fffa70"
+    "revision": "c4ef44562fd570d4f395da8fd04ec8e8"
   },
   {
     "url": "tags/firecrackers/index.html",
-    "revision": "bd8bbb17628cee01d9805069082ed3db"
+    "revision": "e163e02bf7f12dacbf672bfc8b4d25ab"
   },
   {
     "url": "tags/fixing-stuff/index.html",
-    "revision": "0e2a72c1d046574e44f3d031c0e02f68"
+    "revision": "ec36a7a61f1462d4799e27a40f4ee37e"
   },
   {
     "url": "tags/food/index.html",
-    "revision": "ba3ca99b4bd34c9be000e0bf18426ca7"
+    "revision": "da040d45afa9f64748b548265fce32b8"
   },
   {
     "url": "tags/frustration/index.html",
-    "revision": "c87e1c38b07958e953dc1a415e05e7ff"
+    "revision": "b0ba24eb9ae3d410a5d0d569922d17e1"
   },
   {
     "url": "tags/gamification/index.html",
-    "revision": "0e0ac7d3dac09001a5fd9ed933e71416"
+    "revision": "771d85f673769629e89f2dbe4fb4a678"
   },
   {
     "url": "tags/geek/index.html",
-    "revision": "09b8ed54102a7b12b0f9836f12fb2595"
+    "revision": "dc33d5985764492e293a07eab4e8202a"
   },
   {
     "url": "tags/generosity/index.html",
-    "revision": "a94390db8e40b1e0797c1af0eedf9073"
+    "revision": "d62ea6d4c131fcb722ea85b851de7e28"
   },
   {
     "url": "tags/habits/index.html",
-    "revision": "33ef6e3bd66b75236ea6c05089875564"
+    "revision": "eefc59bc213cdbaa8efc05274e8dd643"
   },
   {
     "url": "tags/hope/index.html",
-    "revision": "925622d1f93ce89e5bacec0cf7704d26"
+    "revision": "7c18669c3178e793a069b4973ce98767"
   },
   {
     "url": "tags/hot/index.html",
-    "revision": "c99f0e05d2bed193aaa60f2462c9a34e"
+    "revision": "acb6a65f17df3ae76432495d2251a468"
   },
   {
     "url": "tags/idea/index.html",
-    "revision": "7201e33f41ab0c477257405e3f13f862"
+    "revision": "03a58e244240328869d369692d476132"
   },
   {
     "url": "tags/identity/index.html",
-    "revision": "7869df2bd4252f40c47794e10fa75128"
+    "revision": "75322fb4b1ba4ea7c498f71b49a3309c"
   },
   {
     "url": "tags/images/index.html",
-    "revision": "e06944b9aadb266c16eacae23e4d31d2"
+    "revision": "6337e67d18b9696d5dd5c45c14019df0"
   },
   {
     "url": "tags/index.html",
-    "revision": "06fbc8f595e46b43f33abb15844717c6"
+    "revision": "2b959ac574dcad796b9a9d1a9f96e4b3"
   },
   {
     "url": "tags/interruptions/index.html",
-    "revision": "28a3311a5e3ba6952e85f2dfec1b0d61"
+    "revision": "0a6cbb0099ff94c450a8df59bfd875b1"
   },
   {
     "url": "tags/java/index.html",
-    "revision": "b6c5ed1fc45d70a97e62ed72b3a1a9c8"
+    "revision": "2020bb10825458d3c11abc058ab4eb17"
   },
   {
     "url": "tags/javascript/index.html",
-    "revision": "2b283734f1bbecd1d67527859ad1c125"
+    "revision": "2143df2807b54c7dfeaae0760ad6cd16"
   },
   {
     "url": "tags/jfokus/index.html",
-    "revision": "e8a7a4ab600a774f465fa4f6bfb48d0b"
+    "revision": "74917954b42aa9955974e0849b35ce17"
   },
   {
     "url": "tags/journalling/index.html",
-    "revision": "bc9a8765b99622bcd5c19c8ea7f08bbd"
+    "revision": "bc2ded55bf754aee610b9cfca1a1e65f"
   },
   {
     "url": "tags/joy-of-coding/index.html",
-    "revision": "7f4762e5861339f10009fb0a20717e16"
+    "revision": "ee2f759207e84e4eefa7d9feeca821c5"
   },
   {
     "url": "tags/kindle/index.html",
-    "revision": "7eae15caaedef4c4edc10067a9aec992"
+    "revision": "6fe0227106769f1ba6c4046f9ad44ddf"
   },
   {
     "url": "tags/kubernetes/index.html",
-    "revision": "5628317a5f7d566c5766149544eed7a0"
+    "revision": "cc2d5cf24b3e951b28c5d32d412159c0"
   },
   {
     "url": "tags/lascot/index.html",
-    "revision": "e6f30309c981c30db4ee326b3a6efd94"
+    "revision": "ec1aed3b6eb2dbf335dc89240e170ec3"
   },
   {
     "url": "tags/leadership/index.html",
-    "revision": "05ed32d11cc536683040892c2b8e6d0e"
+    "revision": "1ddeac55075fbb11c9d45de69ff3eec8"
   },
   {
     "url": "tags/lean/index.html",
-    "revision": "8e3c1c720119b9fda2a711b172e6b6a4"
+    "revision": "e83c2a20e7c98ddcaacf5b80affe8fda"
   },
   {
     "url": "tags/learning/index.html",
-    "revision": "fa1d40e133b77d6c747251492ab34c74"
+    "revision": "e2918590c84d95877bf4bad8536acd72"
   },
   {
     "url": "tags/lecture/index.html",
-    "revision": "3caaf2b538d40e87356f235c3b711a42"
+    "revision": "2d6a658b34d9db4d42209ee5077d3e7a"
   },
   {
     "url": "tags/life/index.html",
-    "revision": "59800ce30482c68e17f3e52d0aa4ed1c"
+    "revision": "94ce4e86ab3c45038996fa98e009bbc3"
   },
   {
     "url": "tags/management/index.html",
-    "revision": "a862a5c6f5b271127e00b0daeebb539d"
+    "revision": "c7f0822064de815274fd6771df1a8705"
   },
   {
     "url": "tags/markdown/index.html",
-    "revision": "0e47c0dca205afc4f391b509b5be6548"
+    "revision": "92c844876142d3fd4077e6af88855c51"
   },
   {
     "url": "tags/me/index.html",
-    "revision": "61c2855b7a0ece3ce8ea0a1a2613d526"
+    "revision": "722369d4e2fc73958ac7323600fc3563"
   },
   {
     "url": "tags/meditation/index.html",
-    "revision": "5c9437875f2bc6ae1bb210f25867379a"
+    "revision": "8030af0d051f465f814dfe3b6976191c"
   },
   {
     "url": "tags/mentalhealth/index.html",
-    "revision": "c65888d813b077688886ec4389a60275"
+    "revision": "d8681252c11fb975013f44d5bb5c28e6"
   },
   {
     "url": "tags/mentorship/index.html",
-    "revision": "7e8e9a628410cce8bb435a5138f7b410"
+    "revision": "639d2b96277a80fd462f5f8afe6915e1"
   },
   {
     "url": "tags/micro-manage/index.html",
-    "revision": "1b7002cf8986cbb8beaf7ce1124aec18"
+    "revision": "6197972f714787b68da671c32e81416a"
   },
   {
     "url": "tags/mindfulness/index.html",
-    "revision": "64b6eea8bfcbb65a1483629444a96bd2"
+    "revision": "74ffb655b8705d128c5d051d68399d22"
   },
   {
     "url": "tags/minimalistic-blog/index.html",
-    "revision": "e903fcaf38ea3b79c64995b1dcd9c382"
+    "revision": "a87153d752b728910c254b4b17799bf9"
   },
   {
     "url": "tags/mobprogramming/index.html",
-    "revision": "69f51d9b53fcc5730f3bd4d8df1e4802"
+    "revision": "d5d66c8a4fe9fcefc0a8534aa6a65e7b"
   },
   {
     "url": "tags/motivation/index.html",
-    "revision": "ebdb2ddd377ce63c664106fd5dc5dd64"
+    "revision": "6f803bdd6c0616732efc377c3290335b"
   },
   {
     "url": "tags/moving/index.html",
-    "revision": "d7993239f1ab4da4d3d68caac12688ea"
+    "revision": "f91c4dbb94de941924edf79466bc6da7"
   },
   {
     "url": "tags/music/index.html",
-    "revision": "205bb6f70909a20dbbb9daf39135537e"
+    "revision": "930ab8a35e02d09de5a362c68ecaf1cc"
   },
   {
     "url": "tags/myo/index.html",
-    "revision": "792d7645579666e8c0e7976309fd736b"
+    "revision": "c1c912dc117a455b6b6d5094e4abedd4"
   },
   {
     "url": "tags/netherlands/index.html",
-    "revision": "4af26e969a7508ef2bd0fc3aca561952"
+    "revision": "217e14ed827151f9191b2267049c8308"
   },
   {
     "url": "tags/news/index.html",
-    "revision": "b03821a0a6abe63d052e162960b75221"
+    "revision": "54c55de6d58d1aa78b0e50e24c2c75d6"
   },
   {
     "url": "tags/newsletter/index.html",
-    "revision": "68e03ea74935975c45d1419fd6a6ff61"
+    "revision": "a46695d47f1a1cebf78f7bfa5a2b0763"
   },
   {
     "url": "tags/no/index.html",
-    "revision": "cd7dc68f6bde08216b2840ec6921bad8"
+    "revision": "bd8b15bf174fb7b6b7459df9430f7e1b"
   },
   {
     "url": "tags/octopress/index.html",
-    "revision": "0cf2f1bb84ab584c913a0f242fc1e6cc"
+    "revision": "e9f23e25b0e8d4c3b7af25963572a09d"
   },
   {
     "url": "tags/organizationalchange/index.html",
-    "revision": "23f345b6b1f6e41e83ff0b56998f882c"
+    "revision": "e0405f47f49181ba7563751417052c79"
   },
   {
     "url": "tags/pebble/index.html",
-    "revision": "c7c4e8cc4624b34822070109a867624d"
+    "revision": "f67ee8c9834a0d30659eedf11363fd0b"
   },
   {
     "url": "tags/people/index.html",
-    "revision": "a4b6417c21b7a41e0f987cb0dc3309c7"
+    "revision": "90d31dfcd051160fe56a482a9b9cc191"
   },
   {
     "url": "tags/personal-development/index.html",
-    "revision": "4daef215894b46131d0a6c53a421058c"
+    "revision": "c3a6df0d4a75cda115b97d573b859c2b"
   },
   {
     "url": "tags/perspective/index.html",
-    "revision": "aa996c49927a47cfe22508d176373131"
+    "revision": "f20611efe62337b2efd28de8e5a928e9"
   },
   {
     "url": "tags/pipelines/index.html",
-    "revision": "e31315ef35b505a02fc0a6ee6fb38576"
+    "revision": "037ccfa250f014bf1c7564e4cf50a906"
   },
   {
     "url": "tags/placeholder/index.html",
-    "revision": "9da0f8294e8d309cc9e3643bcd438ad3"
+    "revision": "2e832198f2ff73fe2b0b3b15da917849"
   },
   {
     "url": "tags/planning/index.html",
-    "revision": "879a641b7a4a3cd2b94da4ed32aa853c"
+    "revision": "53e2494ced14e0174ed0ed6a004e5ff3"
   },
   {
     "url": "tags/platform/index.html",
-    "revision": "ae81df93b8931df6c2312492f28c0624"
+    "revision": "d6cd6d1f9d8058d273c563d0a8610f71"
   },
   {
     "url": "tags/platformengineering/index.html",
-    "revision": "18d365da05ffd5ddbf17fb77f4531cbd"
+    "revision": "fa534d95a235b3c6933d6a74e95f7f67"
   },
   {
     "url": "tags/platforms/index.html",
-    "revision": "3cf312d3b2bea51888f78c51e7948ba1"
+    "revision": "3dfc83234ba78de1ceaa1c9b649e9219"
   },
   {
     "url": "tags/pocket/index.html",
-    "revision": "0639ef0e397dc171a2e7a1883ad9fed2"
+    "revision": "934e9d82b60c14549b6860792a8e701a"
   },
   {
     "url": "tags/podcast/index.html",
-    "revision": "60504a0ad5277c471a4ec0ad99545617"
+    "revision": "cebfccf7e6c0057808fbf2bfe978e000"
   },
   {
     "url": "tags/podcasts/index.html",
-    "revision": "cbca0fb13ec468b646289f6b8b94d043"
+    "revision": "5d68c8a8679cf7637a766d0485b4eda9"
   },
   {
     "url": "tags/practice/index.html",
-    "revision": "762b2eb6712b3595bcb20c9a2fff1240"
+    "revision": "4d2f135bb5763d78297e90de747f4a17"
   },
   {
     "url": "tags/presentations/index.html",
-    "revision": "2b676c820fcc952a56369e36cb7cd7fb"
+    "revision": "b5e405e8eb0344cb2941fd1c18eb6d0f"
   },
   {
     "url": "tags/proactive/index.html",
-    "revision": "34bf907fd3198604ca5d546194dd0825"
+    "revision": "f016ed45a1433d50f5d4bc5db128bcd2"
   },
   {
     "url": "tags/problems/index.html",
-    "revision": "188ffb87a4004902c180dba861974f98"
+    "revision": "3a365a41b1b2729c3cab056d5f025155"
   },
   {
     "url": "tags/procrastination/index.html",
-    "revision": "fe672060ece427e651b459e0104c75f3"
+    "revision": "1b69ef7daad09158b71e74e238cd8c0b"
   },
   {
     "url": "tags/product/index.html",
-    "revision": "53ccc33dadc4e2f40f3090a14326b41c"
+    "revision": "0eec1510d73939dd1c9f9ecc4ead84bc"
   },
   {
     "url": "tags/productivity/index.html",
-    "revision": "6e2bddb1e85416a3d45480830da10b02"
+    "revision": "1d912438a124600cb721080387aae293"
   },
   {
     "url": "tags/project-management/index.html",
-    "revision": "dff0ce6d1628852bcf15dfea856d067a"
+    "revision": "6cd701c833fa38ea587c2af9ef730b8e"
   },
   {
     "url": "tags/purpose/index.html",
-    "revision": "8f665553053738befe901c7b387cb321"
+    "revision": "4f9a8166393fcb5e3bf9529b2a153695"
   },
   {
     "url": "tags/rackspace/index.html",
-    "revision": "b9b140b58bb27221c8ab528b53f109ea"
+    "revision": "7aa19af3d14a8a7c1ee6875d0bf77f1b"
   },
   {
     "url": "tags/random/index.html",
-    "revision": "8c9ff6b6e1c99ee6652a553ed0bcaaf1"
+    "revision": "7153b70086f3eb46474bf733d4f493a3"
   },
   {
     "url": "tags/reactive/index.html",
-    "revision": "df7c402a64756e3aea1517481203e23d"
+    "revision": "c19a5875b6cfe0d92b66feb2ed81ace6"
   },
   {
     "url": "tags/reading/index.html",
-    "revision": "68bbd0ff9cf3bd2b1da32e1c9108174b"
+    "revision": "ed964a7a23ef2c1e08de47881f3cdbf9"
   },
   {
     "url": "tags/readwise/index.html",
-    "revision": "a721019f915ac6819e69a178bc9a421a"
+    "revision": "33ef30125883de719f4ac55a1a4edb5a"
   },
   {
     "url": "tags/rescue-time/index.html",
-    "revision": "27b56835eda77f29ab99218971f38e0a"
+    "revision": "476721b4a983613ef00f2cbd8a54eccb"
   },
   {
     "url": "tags/roamresearch/index.html",
-    "revision": "bdae47709b061a00d60964897e73de9f"
+    "revision": "37102d39102e07697cdbb90917556b49"
   },
   {
     "url": "tags/romania/index.html",
-    "revision": "7eb09bff9b1286c7b94a2a7619f50b51"
+    "revision": "e23eeacf09915b0a8ec6857a21cd030a"
   },
   {
     "url": "tags/routine/index.html",
-    "revision": "62a85cf176617cb01ca1421e8d8fde0d"
+    "revision": "b7dc94678affbc0eb50ceb90a180ceff"
   },
   {
     "url": "tags/ruby/index.html",
-    "revision": "b0e149bf03ba71565e2c63fb7a9d431a"
+    "revision": "1733910ddec0ddb6e5367f7e80517b7e"
   },
   {
     "url": "tags/scope/index.html",
-    "revision": "9af9bff155c38fc8c06a31cba1c88866"
+    "revision": "36bd75c13856221a2a128007d3b001d6"
   },
   {
     "url": "tags/scrum/index.html",
-    "revision": "56677b352868012ed901bb0f2813a1c5"
+    "revision": "1b40dcd5e5bde968e8e3a8f2377f4ae5"
   },
   {
     "url": "tags/self-awareness/index.html",
-    "revision": "7a222e1538946815e88892b7de1acc05"
+    "revision": "f2b93885ea279806a8b667149ad4d193"
   },
   {
     "url": "tags/simple/index.html",
-    "revision": "7807de5d90ea6233b415ab2a8b4e7608"
+    "revision": "2340f9f76e0f9a6e4df12dd1c6c8ad76"
   },
   {
     "url": "tags/sleep/index.html",
-    "revision": "5e8c13ee117189fdd432fe025887b52d"
+    "revision": "b31fd35b8aa3df6a4f2769b82297e0dc"
   },
   {
     "url": "tags/slickynotes/index.html",
-    "revision": "0bd0ef79d938a52b3e4fe59e2c978953"
+    "revision": "aba430a30e42af80e73e5691979d5b34"
   },
   {
     "url": "tags/social-media/index.html",
-    "revision": "486127e5b34a359f8dbd529ea2474fd2"
+    "revision": "bf17e4a53a0b35b41a919a3f7b2b3faa"
   },
   {
     "url": "tags/software-development/index.html",
-    "revision": "cd48cf83294c8c3956f5fdfb67ea72b3"
+    "revision": "980113fd966fc6bfda4c1bec30934f05"
   },
   {
     "url": "tags/software-engineering/index.html",
-    "revision": "2e09da3136c64d9d008253b90aab9115"
+    "revision": "ffb5d7e8a4ffced5106b9889df3f0674"
   },
   {
     "url": "tags/software/index.html",
-    "revision": "4f1dc7c3359da4a007248b1875531a3d"
+    "revision": "c23d11d83626d134fbdd1c52a1ffbb03"
   },
   {
     "url": "tags/softwaredevelopment/index.html",
-    "revision": "473020672d6ad298e9bb7cb02aa25820"
+    "revision": "ef61e6ca95eb704902e61d8f135c485f"
   },
   {
     "url": "tags/solutions/index.html",
-    "revision": "8344ae6e216ddf85ebc9c84ce5fecb4c"
+    "revision": "04c423a6032ef82da0b9ffdd2b0435e6"
   },
   {
     "url": "tags/spotify/index.html",
-    "revision": "f398d12c3f3b0bb7076b2a0a20c2c56e"
+    "revision": "43caaca044056b3d7f5a43d8946329f9"
   },
   {
     "url": "tags/stackoverflow/index.html",
-    "revision": "c6fa0817ac8d9945cca067de1cda8ab8"
+    "revision": "aaa4b0bcf4c1090ed75e0a4088795b37"
   },
   {
     "url": "tags/standing/index.html",
-    "revision": "f4d5f7572e5fd94be17635cf7bd52f1d"
+    "revision": "40351e5df60fb7fd65765ebd766b73a0"
   },
   {
     "url": "tags/story-mapping/index.html",
-    "revision": "d64e4b26b59667c8b738332b370caa2c"
+    "revision": "ff090c6ccb0161ca6badc6c6867b6f25"
   },
   {
     "url": "tags/story/index.html",
-    "revision": "99480331093ac6c46158bb302d651535"
+    "revision": "09073c5c1ef676b8fbc97f5b00941ccf"
   },
   {
     "url": "tags/streaming/index.html",
-    "revision": "6e04f0e00779de54e220f24fdf53d2c6"
+    "revision": "dec6ddb47eb8afd3ccb45f32e1344933"
   },
   {
     "url": "tags/success/index.html",
-    "revision": "e821e426f1bb245ba21bebcbf79afa5b"
+    "revision": "42c7451ea0646ae5a402b315095a0e9e"
   },
   {
     "url": "tags/systemsthinking/index.html",
-    "revision": "e691e4e6ffeceb205460ac98cb8dd2df"
+    "revision": "4e511e14b2406541b40bc7e893888f9e"
   },
   {
     "url": "tags/team/index.html",
-    "revision": "e43b40137ae459e33100f66e7c6e18df"
+    "revision": "1b0a761d2c6e01efd420a936b019e52d"
   },
   {
     "url": "tags/technical debt/index.html",
-    "revision": "cd5e3799675c6f23d8a8ca56c1a809ad"
+    "revision": "98a37979d836b9aff1a622ceb9f7f7f2"
   },
   {
     "url": "tags/testing/index.html",
-    "revision": "c954211fbb50e1128ac63b3907ce2b84"
+    "revision": "d9eb0ef2aabd2ba913bf3cac7779f43b"
   },
   {
     "url": "tags/theboob/index.html",
-    "revision": "b60a33bf5dc932995a7eb0216af9e17b"
+    "revision": "53ca4e13ccdde3ed909eeddb0555a65d"
   },
   {
     "url": "tags/thebrain/index.html",
-    "revision": "a9aa3bcf2cfd6b3315d8b01e88d90977"
+    "revision": "b799593990ebfddbade7fde46d51192c"
   },
   {
     "url": "tags/time/index.html",
-    "revision": "7343165490c0d4c90a346ebd5ad0eb27"
+    "revision": "68c3fe718539d833a7e89c9653888eff"
   },
   {
     "url": "tags/tools/index.html",
-    "revision": "b1608f1376f48515fd5284f72b6beea3"
+    "revision": "3206fa31d61226d6bfdc1aa043485e35"
   },
   {
     "url": "tags/tourist/index.html",
-    "revision": "2ac1fe3c0834f3b2c85faf489ebd2b12"
+    "revision": "56dd75e294e6f4ec08bd4bb501bff5b7"
   },
   {
     "url": "tags/travelling/index.html",
-    "revision": "803f78e6c067a9355d45da82af3b9739"
+    "revision": "b607c7e250133b1b20ccc4161464aed4"
   },
   {
     "url": "tags/trust/index.html",
-    "revision": "884ec687b571ce5ae83503d8de84bc75"
+    "revision": "94dedb62ea079452274cf03db932edb9"
   },
   {
     "url": "tags/tutorials/index.html",
-    "revision": "8488875bbc7129db06f44819303e5798"
+    "revision": "5abb2c855cc8c59266ac08f25229d495"
   },
   {
     "url": "tags/type-erasure/index.html",
-    "revision": "497f4f32803452ee259e54dabd135bae"
+    "revision": "da544b3c44b030ee98f5a81fc54e3edf"
   },
   {
     "url": "tags/unboxing/index.html",
-    "revision": "d9b3f57a5ba3a41aebd5e786e57b25d6"
+    "revision": "bbbe15f13ed391d7e3d4c278da7bbbd7"
   },
   {
     "url": "tags/urgency/index.html",
-    "revision": "852cb0808698d0e88d4f73b0b48ceadd"
+    "revision": "32d0ee7c53f47012d22c5b9536bed876"
   },
   {
     "url": "tags/vacation/index.html",
-    "revision": "5e637543975adda70efc2662dc294714"
+    "revision": "040fe24d0defe8b62eb8f14835d93e5d"
   },
   {
     "url": "tags/vinyl/index.html",
-    "revision": "a48042acbbd09804e61f207ee68d21e2"
+    "revision": "31fd6e09967932c4cd045fcc5b5bf6f6"
   },
   {
     "url": "tags/vision/index.html",
-    "revision": "0d76e129dc6b4a4b58b302a13c0e82d5"
+    "revision": "8ed924f9898cc2e5b2ec844068d6f655"
   },
   {
     "url": "tags/vscode/index.html",
-    "revision": "d8006c610da5a88b4a5bff951d0c8944"
+    "revision": "518192b0838c749237f1adbdd5b83445"
   },
   {
     "url": "tags/who-am-i/index.html",
-    "revision": "1dc30482a678524011a3e39377c4e17d"
+    "revision": "300bb2f5e032356bb55666f4bffbdb94"
   },
   {
     "url": "tags/why/index.html",
-    "revision": "5c4e8007ae25f57f4a918ef2705f63da"
+    "revision": "aafcc4a23e84a9977f1c2ab2048f70ee"
   },
   {
     "url": "tags/work/index.html",
-    "revision": "e0b4cb5160f47d7cd31c808dcc334003"
+    "revision": "0bbe7d27d47a275993dea4fec6358fc0"
   },
   {
     "url": "tags/writing/index.html",
-    "revision": "5c92910850ad81db9c440efabda0aeda"
+    "revision": "c4e6fbcc5d13c34641881cdab5d699de"
   },
   {
     "url": "tags/wsl/index.html",
-    "revision": "19cd0c6bd941f1ecc6bbe96ac2906c2c"
+    "revision": "6a2b063bd676ffcf79edf14cf5cd07a5"
   },
   {
     "url": "tags/yourturnchallenge/index.html",
-    "revision": "8c397eb827478077489ce23809d1bf41"
+    "revision": "0a837393f1ea953f949001a482876797"
   },
   {
     "url": "tags/zoom/index.html",
-    "revision": "827ae1077afd018854b72d257ab79310"
+    "revision": "651168ec2554ad25f1f1ab94e4191842"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
