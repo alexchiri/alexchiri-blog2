@@ -31,3 +31,5 @@ Actually, **all elements in software development mattered, but none is more impo
 And this is connected to another aspect from my dream: **the company culture was to build in public**, with goods and bads. There was no place for silos, public interest communication happening behind private messages and back doors. Almost all communication was done in public internal forums, where everyone could contribute or just read and move on to other things. They also set up things in such a way that it was easy to know where the right information can be found. These encouraged collaboration between teams and facilitated open discussions about everything. Again, balance was critical, owners took the decisions, but they chose to involve others and present their reasoning in public. 
 
 There were many other things I wanted to dream about, but I had to wake up and start my day. What a dream! I wish it will someday come true! 😊
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tb1BD77G7Mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

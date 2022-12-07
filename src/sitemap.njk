@@ -8,8 +8,6 @@ eleventyExcludeFromCollections: true
 {% block content %}
   <h1>Sitemap</h1>
 
-  {% imageNjk "https://source.unsplash.com/ZPQaHSogmuU/", "Desert", "(min-width: 30em) 50vw, 100vw", "grid-column-full", "img-full" %}
-
   <ul class="sitemap-list">
     {% set pagesNumber %}{{ collections.all | length }}{% endset %}
     <p>

@@ -1,17 +1,14 @@
 ---
 layout: layouts/home.njk
 title: About
-imgUrl: ./src/assets/images/non-profi-profile-pic.JPG
-imgAlt: ''
-imgSize: '100vw'
-pictureClass: grid-column-center
-imgClass: img-post
-imgBorderColor: '#3f51b5'
 pageClass: page-about
 eleventyNavigation:
   key: About
   order: 3
 ---
+
+  {% imageMd "./src/assets/images/non-profi-profile-pic.JPG", "Profile pic", "(min-width: 30em) 50vw, 100vw", "grid-column-center", "img-post" %}
+  
 Hi! 
 
 My name is Alex and this is my blog. I write occassionally about all kind of stuff coming from my job as a IT Consultant specialised in DevOps or from my personal life.
