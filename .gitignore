@@ -4,9 +4,6 @@ node_modules/
 # MacOS
 .DS_Store
 
-# build directory
-dist
-
 # sass
 *.map
 
