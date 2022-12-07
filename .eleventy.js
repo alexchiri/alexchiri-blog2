@@ -76,12 +76,12 @@ module.exports = function(eleventyConfig) {
    * @link https://www.11ty.io/docs/filters/
    */
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLLL yyyy");
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat("dd LLLL yyyy");
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('dateStringISO', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
   });
 
   eleventyConfig.addFilter("dateFilter", dateFilter);
@@ -90,7 +90,7 @@ module.exports = function(eleventyConfig) {
 
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
-    if( n < 0 ) {
+    if (n < 0) {
       return array.slice(n);
     }
 
@@ -154,7 +154,7 @@ module.exports = function(eleventyConfig) {
    */
   eleventyConfig.addPassthroughCopy("./src/assets/images");
   eleventyConfig.addPassthroughCopy("./src/assets/styles/*.css");
-  eleventyConfig.addPassthroughCopy({"node_modules/mermaid/dist/mermaid.min.js": "/assets/scripts/vendors/mermaid.min.js"});
+  eleventyConfig.addPassthroughCopy({ "node_modules/mermaid/dist/mermaid.min.js": "/assets/scripts/vendors/mermaid.min.js" });
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
   eleventyConfig.addPassthroughCopy("./src/manifest.json");
   eleventyConfig.addPassthroughCopy("./src/assets/scripts/vendors/modernizr.min.js");
@@ -175,29 +175,29 @@ module.exports = function(eleventyConfig) {
     breaks: true,
     linkify: true
   })
-  .use(mila, {
-    pattern: /^(?!(https:\/\/yetty\.netlify\.app|#)).*$/gm,
-    attrs: {
-      target: '_blank',
-      rel: 'noopener noreferrer'
-    }
-  })
-  .use(markdownItAnchor, {
-    // Options with v8.1 for accessibility
-    permalink: markdownItAnchor.permalink.linkAfterHeader({
-      class: "direct-link",
-      symbol: "",
-      style: 'visually-hidden',
-      assistiveText: title => `Permalink to “${title}”`,
-      visuallyHiddenClass: 'visually-hidden'
-    }),
-    slugify: (s) =>
-      s
-        .trim()
-        .toLowerCase()
-        .replace(/[\s+~\/]/g, "_")
-        .replace(/[().`,%·'"!?¿:@*]/g, ""),
-  });
+    .use(mila, {
+      pattern: /^(?!(https:\/\/yetty\.netlify\.app|#)).*$/gm,
+      attrs: {
+        target: '_blank',
+        rel: 'noopener noreferrer'
+      }
+    })
+    .use(markdownItAnchor, {
+      // Options with v8.1 for accessibility
+      permalink: markdownItAnchor.permalink.linkAfterHeader({
+        class: "direct-link",
+        symbol: "",
+        style: 'visually-hidden',
+        assistiveText: title => `Permalink to “${title}”`,
+        visuallyHiddenClass: 'visually-hidden'
+      }),
+      slugify: (s) =>
+        s
+          .trim()
+          .toLowerCase()
+          .replace(/[\s+~\/]/g, "_")
+          .replace(/[().`,%·'"!?¿:@*]/g, ""),
+    });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   /**
@@ -256,7 +256,7 @@ module.exports = function(eleventyConfig) {
       input: "./src",
       includes: "_includes",
       data: "_data",
-      output: "./dist"
+      output: "./docs"
     }
   };
 };
